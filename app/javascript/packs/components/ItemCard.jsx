@@ -18,8 +18,8 @@ export default class ItemCard extends React.Component {
     } 
 
     componentDidMount() {
-        const promise = fetchMenuItems()
-        promise.then(menu_items => console.log(menu_items))
+        // const promise = fetchMenuItems()
+        // promise.then(menu_items => console.log(menu_items))
     }
 
     render() {

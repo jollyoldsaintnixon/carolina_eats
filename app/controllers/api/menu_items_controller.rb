@@ -1,6 +1,5 @@
 class Api::MenuItemsController < ApplicationController
   def index
-    byebug
     @menu_items = MenuItem.all
   end
 
