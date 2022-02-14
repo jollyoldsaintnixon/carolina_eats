@@ -1,0 +1,39 @@
+// Place all the styles related to the api/menu_items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.serve-date-div {
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.serve-date-time-date, .serve-date-location {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-card-div {
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item-card-name {
+    width: 100%;
+}
+
+.item-card-break-line {
+    border-top: 1px solid black;
+    margin-top: 8px;
+    width: 100%;
+}

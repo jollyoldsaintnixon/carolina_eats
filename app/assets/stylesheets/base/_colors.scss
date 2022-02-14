@@ -1,0 +1,13 @@
+$dark-purple: #6713A8;
+$light-purple: #9B4EAA;
+$mid-green: #3B9E21;
+$dark-green: #1A3D28;
+$light-green: #15D160;
+$lighter-green: lighten($light-green, 20%);
+$lightest-green: lighten($light-green, 40%);
+$five: #020E2B;
+$four: lighten($five, 15%);
+$three: lighten($five, 30%);
+$two: lighten($five, 45%);
+$one: lighten($five, 60%);
+$zero: lighten($five, 75%);

@@ -1,0 +1,17 @@
+.sticky {
+    border-radius: 10% 0;
+    background: $light-green;
+}
+
+body {
+    margin: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.clickable:hover {
+    background-color: red;
+    cursor: pointer;
+}
