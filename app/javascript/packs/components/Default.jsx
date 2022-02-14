@@ -6,6 +6,10 @@ export default class ItemCard extends React.Component {
     }
 
     render() {
-        return ()
+        return (
+            <div>
+                
+            </div>
+        )
     }
 }

@@ -26,3 +26,10 @@ export const fetchMenuItemsActionCreator = () => (dispatch) => {
             return dispatch(receiveMenuItemErrors(error.responseJSON))
         })
 }
+
+export const fetchMenuItemActionCreator = (id) => (dispatch) => {
+    const promise = APIUTIL.fetchMenuItem(id)
+    return promise.then(menu_item => dispatch(receiveMenuItemAction(menu_item)),
+        (error) => dispatch(receiveMenuItemErrorsAction(error.responseJSON))
+    )
+}

@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
-  namespace :api do
-    get 'menu_items/index'
-    get 'menu_items/show'
-    get 'menu_items/liked'
-    get 'menu_items/update'
-    get 'menu_items/destroy'
+  namespace :api, defaults: {format: :json} do
+    resources :menu_items, only: [:index, :show]
   end
 
   root 'static_pages#root'

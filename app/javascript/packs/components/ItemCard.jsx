@@ -1,19 +1,25 @@
 import React from "react";
 import ServeDate from "./ServeDate";
+import { fetchMenuItems } from "../util/menu_items_util";
 
 export default class ItemCard extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
             showDetails: false,
+            menu_items: null,
         }
     }
 
     toggleDetails(e) {
-        console.log(e.target)
         this.setState({
             showDetails: !this.state.showDetails,
         })
+    } 
+
+    componentDidMount() {
+        const promise = fetchMenuItems()
+        promise.then(menu_items => console.log(menu_items))
     }
 
     render() {

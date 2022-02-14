@@ -20,8 +20,6 @@ Hello.propTypes = {
   name: PropTypes.string
 }
 
-console.log("index body")
-
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     // <ServeDate location={"Lenoir"} time={"13:00"} date={"Tuesday, March 3"} />,
