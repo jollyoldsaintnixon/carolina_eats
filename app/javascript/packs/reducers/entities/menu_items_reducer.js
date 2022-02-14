@@ -5,7 +5,6 @@ import { merge } from 'lodash'
 export default (state = {}, action) => {
   
   Object.freeze(state)
-  
   switch (action.type) {
     case RECEIVE_MENU_ITEMS:
         return action.menu_items

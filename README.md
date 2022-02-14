@@ -24,13 +24,8 @@ Things you may want to cover:
 * ...
 
 TODO:
-    hook up redux
-        backend:
-            routes
-            controller renders appropriate json
-        frontend:
-            import store in right place
-            invoke actions at correct place
+    figure out why serve date parsing returns NaN
+    load serve dates in a paginating way
 NOTES:
     CSS:
         body has a margin of 50px for development; take it out later

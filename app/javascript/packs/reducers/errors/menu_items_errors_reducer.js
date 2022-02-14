@@ -5,7 +5,7 @@ export default (state = [], action) => {
 
     switch (action.type) {
         case RECEIVE_MENU_ITEM_ERRORS:
-            return action.errors
+            return [].push(action.errors)
         default:
             return state
     }

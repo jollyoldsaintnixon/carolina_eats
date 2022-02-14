@@ -46,34 +46,42 @@ end
 items = MenuItem.all
 serve_dates = []
 # debugger
+year = 2022
+month = 1
+day = 0 
 ServeDate::LOCATIONS.each do |location|
-    (0..6).each do |day|
-        CSV.foreach("db/scraped_data/updates/today+#{day}/#{location}/menu.csv", headers: true) do |row|
-            
-            date = row["date"]
-            serving_time = row["meal"].split(" ")[-1] # "meal"=>"Continental (9am-11am)"
-            start_string, end_string = serving_time.split('-') # [(9am, 11am)]
-            iso_start = formatTime(start_string)
-            iso_end = formatTime(end_string)
-            iso_dt_start = "#{date}T#{iso_start}:00-04:00"
-            iso_dt_end = "#{date}T#{iso_end}:00-04:00"
-            # debugger
-            start_time = DateTime.iso8601(iso_dt_start)
-            end_time = DateTime.iso8601(iso_dt_end)
-
-            menu_item = items.find {|item| item.name == row["name"]}
-            # byebug
-            if menu_item
-                sd = {
-                    location: row["location"],
-                    start_time: start_time,
-                    end_time: end_time,
-                    menu_item_id: menu_item.id,
-                }
-                # serve_dates << row.to_h
-                serve_dates << sd
-            else 
-                puts "skipped #{row['name']} from #{row['category']}"
+    (1..12).each do |month|
+        (1..31).each do |day| # if CSV can't read a file that doesn't exist, then this should fail immediately because it starts at 0
+            filename = "db/scraped_data/#{location}/#{year}/#{month}/#{day}.csv"
+            if File.exist?(filename) # also returns true for directories that match
+                CSV.foreach(filename, headers: true) do |row|
+                # CSV.foreach("db/scraped_data/updates/today+#{day}/#{location}/menu.csv", headers: true) do |row| # this was the one for just doing weekly updates
+                    date = row["date"]
+                    serving_time = row["meal"].split(" ")[-1] # "meal"=>"Continental (9am-11am)"
+                    start_string, end_string = serving_time.split('-') # [(9am, 11am)]
+                    iso_start = formatTime(start_string)
+                    iso_end = formatTime(end_string)
+                    iso_dt_start = "#{date}T#{iso_start}:00-04:00"
+                    iso_dt_end = "#{date}T#{iso_end}:00-04:00"
+                    # debugger
+                    start_time = DateTime.iso8601(iso_dt_start)
+                    end_time = DateTime.iso8601(iso_dt_end)
+    
+                    menu_item = items.find {|item| item.name == row["name"]}
+                    # byebug
+                    if menu_item
+                        sd = {
+                            location: row["location"],
+                            start_time: start_time,
+                            end_time: end_time,
+                            menu_item_id: menu_item.id,
+                        }
+                        # serve_dates << row.to_h
+                        serve_dates << sd
+                    else 
+                        puts "skipped #{row['name']} from #{row['category']}"
+                    end
+                end
             end
         end
     end

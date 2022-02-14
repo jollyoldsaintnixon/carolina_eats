@@ -1,10 +1,10 @@
 class Api::MenuItemsController < ApplicationController
   def index
-    @menu_items = MenuItem.all
+    @menu_items = MenuItem.all.includes(:serve_dates)
   end
 
   def show
-    @menu_item = MenuItem.find(params[:id])
+    @menu_item = MenuItem.includes(:serve_dates).find(params[:id])
   end
 
   def liked
