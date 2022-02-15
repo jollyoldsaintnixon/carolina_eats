@@ -21,13 +21,7 @@ class App extends React.Component {
     makeItemCards() {
         const { menu_items } = this.state
         if (menu_items) {
-            let i = 0 // TEST TEST i is only for testing; remove later
-            return Object.keys(menu_items).map((id) => {
-            if (i>4) {
-                return
-            }
-            i++
-            return <ItemCard item={menu_items[id]} userSavedItem={"true"}/>})
+            return Object.keys(menu_items).map((id) => <ItemCard item={menu_items[id]} userSavedItem={"true"}/>)
         } else {
             return []
         }

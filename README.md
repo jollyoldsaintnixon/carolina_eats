@@ -26,6 +26,7 @@ Things you may want to cover:
 TODO:
     figure out why serve date parsing returns NaN
     load serve dates in a paginating way
+    serve dates load on hover/blur/focus
 NOTES:
     CSS:
         body has a margin of 50px for development; take it out later

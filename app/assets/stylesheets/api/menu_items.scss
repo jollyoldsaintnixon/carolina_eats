@@ -11,6 +11,13 @@
     border-radius: 8px;
 }
 
+.serve-dates-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .serve-date-time-date, .serve-date-location {
     font-size: 20px;
     font-weight: bold;
