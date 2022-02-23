@@ -24,9 +24,23 @@ Things you may want to cover:
 * ...
 
 TODO:
-    figure out why serve date parsing returns NaN
-    load serve dates in a paginating way
-    serve dates load on hover/blur/focus
+    session:
+        figure out Link/Router/HashRouter, and when to render signup/login/logout
+    user:
+        oauth
+    make strong params
+    serve_dates:
+        load serve dates in a paginating way
+    display:
+        attach menu item names to window
+        make it to the serve dates controller when trying to query today's serve dates
+        render display
+            figure out best way to feed in today's menu items
+                ? another backend query for specified date
+                ? initial query already distinguishes each needed day (should be 7 total)
+                ? parse the menu_items already returned from initial mass query on front end
+    search: 
+        test out search functionality
 NOTES:
     CSS:
         body has a margin of 50px for development; take it out later

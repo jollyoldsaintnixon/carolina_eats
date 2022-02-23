@@ -24,7 +24,7 @@ class ItemCard extends React.Component {
                 const { menu_item } = action
                 const { serve_dates } = menu_item
                 const dateSorter = (sd1, sd2) => {
-                    debugger
+                     
                     const sd1_start = sd1.start_time
                     const sd2_start = sd2.start_time
                     for (let i=0,len=sd1_start.length;i<len;i++){
@@ -32,9 +32,9 @@ class ItemCard extends React.Component {
                     }
                     return 0;
                 }
-                debugger
+                 
                 serve_dates.sort(dateSorter)
-                debugger
+                 
                 this.setState({serve_dates})
                 })
     }

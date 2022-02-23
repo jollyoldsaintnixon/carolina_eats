@@ -2,3 +2,4 @@ require "/home/josn/apps/carolina_eats/carolina_eats/app/workers/serve_dates_see
 require "sidekiq"
 
 ServeDatesSeedWorker.perform_async()
+MenuItemNames.perform_async

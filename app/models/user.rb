@@ -27,7 +27,7 @@ class User < ApplicationRecord
     through: :liked_by_users
 
     # has_secure_password
-    validates :username, :password_digest, :session_token, :email, presence: true
+    validates :password_digest, :session_token, :email, presence: true
     validates :email, :session_token, uniqueness: true
     validates :password, length: {minimum: 6, allow_nil: true}
     validate :valid_email?

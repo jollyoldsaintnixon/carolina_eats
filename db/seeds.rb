@@ -45,7 +45,7 @@ end
 
 items = MenuItem.all
 serve_dates = []
-# debugger
+#  
 year = 2022
 month = 1
 day = 0 
@@ -63,7 +63,7 @@ ServeDate::LOCATIONS.each do |location|
                     iso_end = formatTime(end_string)
                     iso_dt_start = "#{date}T#{iso_start}:00-04:00"
                     iso_dt_end = "#{date}T#{iso_end}:00-04:00"
-                    # debugger
+                    #  
                     start_time = DateTime.iso8601(iso_dt_start)
                     end_time = DateTime.iso8601(iso_dt_end)
     

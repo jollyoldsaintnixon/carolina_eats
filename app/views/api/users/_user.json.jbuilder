@@ -1,0 +1,1 @@
+json.extract! user, :id, :email #, :game_ids, :game_comment_ids

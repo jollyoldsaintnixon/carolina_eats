@@ -1,8 +1,12 @@
 import * as APIUTIL from '../util/menu_items_util'
 
 export const RECEIVE_MENU_ITEMS = "RECEIVE_MENU_ITEMS"
+export const RECEIVE_MENU_ITEM_NAMES = "RECEIVE_MENU_ITEM_NAMES"
+export const RECEIVE_MENU_ITEM_NAMES_ERRORS = "RECEIVE_MENU_ITEM_NAMES_ERRORS"
 export const RECEIVE_MENU_ITEM = "RECEIVE_MENU_ITEM"
 export const RECEIVE_MENU_ITEM_ERRORS = "RECEIVE_MENU_ITEM_ERRORS"
+export const RECEIVE_SERVE_DATES = "RECEIVE_SERVE_DATES"
+export const RECEIVE_SERVE_DATES_ERRORS = "RECEIVE_SERVE_DATES_ERRORS"
 
 const receiveMenuItemsAction = menu_items => ({
     type: RECEIVE_MENU_ITEMS,
@@ -19,39 +23,33 @@ const receiveMenuItemErrorsAction = errors => ({
     errors
 })
 
+const receiveServeDatesAction = serve_dates => ({
+    type: RECEIVE_SERVE_DATES,
+    serve_dates
+})
+
+const receiveServeDatesErrorsAction = errors => ({
+    type: RECEIVE_SERVE_DATES_ERRORS,
+    errors
+})
+
+const receiveMenuItemNamesAction = menu_item_names => ({
+    type: RECEIVE_MENU_ITEM_NAMES,
+    menu_item_names
+})
+
+const receiveMenuItemNamesErrorsAction = errors => ({
+    type: RECEIVE_MENU_ITEM_NAMES_ERRORS,
+    errors
+})
+
 export const fetchMenuItemsActionCreator = () => (dispatch) => {
     const promise = APIUTIL.fetchMenuItems()
     return promise.then(menu_items => dispatch(receiveMenuItemsAction(menu_items)),
         error => {
-            debugger
-            return dispatch(receiveMenuItemErrors(error.responseJSON))
+            return dispatch(receiveMenuItemErrorsAction(error.responseText))
         })
 }
-
-// export const fetchMenuItems = () => {
-//     return $.ajax({
-//         method: 'GET',
-//         url: '/api/menu_items'
-//     })
-// }
-
-// export const fetchGames = () => dispatch => {
-    
-//     const promise = APIUtil.fetchGames()
-//     return promise.then(games => dispatch(receiveGames(games)),
-//     error => {      
-//         return dispatch(receiveGameErrors(error.responseJSON))
-//     })
-// }
-
-// export const fetchGames = () => {
-//     return $.ajax({
-//       method: 'GET',
-//       url: '/api/games',
-//     })
-//   }
-  
-  
 
 export const fetchMenuItemActionCreator = (id) => (dispatch) => {
     const promise = APIUTIL.fetchMenuItem(id)
@@ -59,5 +57,23 @@ export const fetchMenuItemActionCreator = (id) => (dispatch) => {
         return dispatch(receiveMenuItemAction(menu_item))},
         (error) => {
             dispatch(receiveMenuItemErrorsAction(error.responseText))}
+            )
+        }
+
+export const fetchServeDatesActionCreator = (date) => dispatch => {
+    const promise = APIUTIL.fetchServeDates(date)
+    return promise.then(serve_dates => dispatch(receiveServeDatesAction(serve_dates)),
+            error => {
+                return dispatch(receiveServeDatesErrorsAction(error.responseText))
+            }
+        )
+}
+
+export const fetchMenuItemNamesActionCreator = () => dispatch => {
+    const promise = APIUTIL.fetchMenuItemNames()
+    return promise.then(menu_item_names => dispatch(receiveMenuItemNamesAction(menu_item_names)),
+        error => {
+            return dispatch(receiveMenuItemNamesErrorsAction(error.responseText))
+        }
     )
 }

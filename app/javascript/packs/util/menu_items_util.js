@@ -11,6 +11,20 @@ export const fetchMenuItem = id => {
         url: `/api/menu_items/${id}`
     })
 }
+
+export const fetchServeDates = (date) => {
+    return $.ajax({
+        method: 'GET',
+        url: `/api/serve_dates/${date}`
+    })
+}
+
+export const fetchMenuItemNames = () => {
+    return $.ajax({
+        method: 'GET',
+        url: '/api/menu_item_names'
+    })
+}
   
 // export const fetchGame = id => {
 //     return $.ajax({
