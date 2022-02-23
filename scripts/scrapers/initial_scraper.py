@@ -44,7 +44,7 @@ def scraper():
             soup = make_soup(html)
             master_additions, daily_set = get_menu_items(soup, l, d)
             save_menu_items(daily_set, d, l)
-            master = update_master(master_additions, master)
+            master = update_master(master_additions, master) # do we really need to have the master equal to the result?
             print(f"length of master at {d.isoformat}: {len(master)}")
         d += datetime.timedelta(days=1)
     

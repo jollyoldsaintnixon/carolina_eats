@@ -37,12 +37,12 @@ class Display extends React.Component {
         }
     }
 
-    componentDidUpdate() {
-        const serve_dates = this.props.fetchServeDates(0)
+    componentDidMount() {
+        this.props.fetchServeDates(0)
             .then(({serve_dates}) => {
                 console.log(serve_dates)
                 this.setState({
-                serve_dates: this.state.serve_dates.push(serve_dates)
+                serve_dates
             })})
         // const filtered_menu_items = this.filterMenuItems()
         // this.setState({filtered_menu_items})

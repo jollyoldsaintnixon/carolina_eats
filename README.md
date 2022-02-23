@@ -23,12 +23,24 @@ Things you may want to cover:
 
 * ...
 
+# Scraper
+## Shape of Master 
+- set
+    - 
+- stored in pickle
+- written to csv
+    1. category name
+    2. item name
+
 TODO:
     session:
         figure out Link/Router/HashRouter, and when to render signup/login/logout
     user:
         oauth
-    make strong params
+    controllers:
+        make strong params
+    menu_items:
+        BONUS: include dietary preference category
     serve_dates:
         load serve dates in a paginating way
     display:
@@ -39,8 +51,12 @@ TODO:
                 ? another backend query for specified date
                 ? initial query already distinguishes each needed day (should be 7 total)
                 ? parse the menu_items already returned from initial mass query on front end
-    search: 
-        test out search functionality
+    search:
+        -search function can be improved by have filter start at largest -prefix in dictionary
+        -have the dictionary be a copy of what is in the state and then setState to save it
+        BONUS: build a suffix tree
+        BONUS: highlight matching parts
+        BONUS: search by dietary preference
 NOTES:
     CSS:
         body has a margin of 50px for development; take it out later

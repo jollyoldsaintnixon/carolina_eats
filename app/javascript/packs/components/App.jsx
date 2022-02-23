@@ -3,11 +3,9 @@ import ItemCard from "./ItemCard";
 import { connect } from 'react-redux'
 // import { fetchMenuItems } from "../util/menu_items_util";
 import { fetchMenuItemsActionCreator, fetchMenuItemNamesActionCreator } from "../actions/menu_items_actions"
-import Display from "./Display";
-import SignUp from "./session/SignUp";
-import LogIn from "./session/LogIn";
-import LogOut from "./session/LogOut";
 import NameSearch from "./NameSearch";
+import SessionBar from "./session/SessionBar";
+import Display from "./Display";
 
 class App extends React.Component {
     constructor(props) {
@@ -51,13 +49,9 @@ class App extends React.Component {
             <div>
                 {/* <ItemCard item={{name: "macaroni"}} userSavedItem={"true"}></ItemCard> */}
                 {/* {menu_items} */}
-                {/* <Display type="big" date={today}/> */}
-                <SignUp />
-                <br></br>
-                <LogIn />
-                <br></br>
-                <LogOut />
-                <NameSearch />
+                <SessionBar />
+                <Display type="big" date={today}/>
+                {/* <NameSearch /> */}
             </div>
         )
     }

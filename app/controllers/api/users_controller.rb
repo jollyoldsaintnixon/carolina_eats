@@ -11,7 +11,7 @@ class Api::UsersController < ApplicationController
                 # render json: { errors: email.errors.full_messages, status: 422 }
             # end
         else  
-            render json: { errors: @user.errors.full_messages, status: 422 }
+            render json: @user.errors.full_messages, status: 422
         end
     end
 

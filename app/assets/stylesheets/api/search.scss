@@ -1,4 +1,30 @@
-.matched-name-div {
+.search-list {
+    position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    max-height: 185px;
+    overflow-y: auto; 
+}
+
+.name-search-div {
+    margin: 3px;
+    width: 225px;
+    input {
+        border: 1px solid grey;
+        padding: 2px;
+        width: 100%;
+    }
+}
+
+.matched-name {
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 2px;
+    background-color: aliceblue;
+    &:first-child {
+        border-top: 1px solid grey;
+    }
 }

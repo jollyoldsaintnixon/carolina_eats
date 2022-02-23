@@ -19,6 +19,7 @@ export default class MatchingNames extends React.Component {
         let filtered
         if (search_text in dictionary) {
             filtered = dictionary[search_text]
+            console.log("in the dict")
         } else {
             filtered = this.filter(menu_item_names, search_text)
             dictionary[search_text] = filtered // memoize
@@ -86,19 +87,20 @@ export default class MatchingNames extends React.Component {
     }
 
     makeElements(filtered_list) {
-        console.log(filtered_list)
         return filtered_list.map((item, idx) => {
-            return (<div className='matched-name' key={idx}>{item}</div>)
+            return (<div className='matched-name' 
+            key={idx}
+            onClick={() => console.log(item)}
+            >{item}</div>)
         })
     }
 
     render() {
-        
         let matches = this.makeMatches()
         matches = matches ? matches : null // in case it is undefined
         return (
             
-            <div className='matched-name-div'>
+            <div className='search-list'>
                 {matches}
             </div>
         )

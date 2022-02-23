@@ -10,7 +10,20 @@ import {configureStore} from './store/store'
 import Root from './Root'
 
 document.addEventListener('DOMContentLoaded', () => {
-  const store = configureStore()
+  let store
+
+  if (window.current_user) {
+    const preloaded_state = {
+      entities: {
+        users: { [window.current_user]: window.current_user }
+      },
+      session: { id: window.current_user.id }
+    }
+    store = configureStore(preloaded_state)
+    delete window.current_user
+  } else {
+    store = configureStore()
+  }
   
   ReactDOM.render(
     <Root store={store}></Root>,

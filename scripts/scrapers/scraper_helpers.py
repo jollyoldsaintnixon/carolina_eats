@@ -71,9 +71,9 @@ def get_master_pickle(file_name):
             master = pickle.load(file)
     else: 
         master = set()
-        with open(file_name, "wb") as file:
+        # with open(file_name, "wb") as file:
             # pickle.dump(master, file)
-            pass
+            # pass
     return master
 
 def update_master(menu_items, master):

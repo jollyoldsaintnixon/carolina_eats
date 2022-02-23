@@ -22,7 +22,6 @@ class NameSearch extends React.Component {
 
 
     render() {
-        console.log(this.state)
         const { search_text, menu_item_names } = this.state
         return (
             <div className="name-search-div">
