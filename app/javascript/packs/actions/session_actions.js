@@ -40,7 +40,6 @@ export const logInActionCreator = (user) => dispatch => {
 }
 
 export const signUpActionCreator = user => dispatch => {
-    console.log('starting request')
     return APIUTIL.sendSignUp(user)
         .then(
             new_user => {

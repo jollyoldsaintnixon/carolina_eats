@@ -26,4 +26,6 @@ class MenuItem < ApplicationRecord
 
     validates :name, :category, presence: true
     validates :name, uniqueness: true
+
+    DIETARY_RESTRICTIONS=["vegan", "smart_choice", "local", "organic", "made_without_gluten", "vegetarian", "halal", "sustainable_seafood"]
 end

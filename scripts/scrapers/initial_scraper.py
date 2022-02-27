@@ -13,7 +13,7 @@ def scraper():
     os.chdir(STARTING_DIRECTORY)
     sys_args = sys.argv # the first arg should be the desired start date. default is jan 1, 2022
                         # second arg should be how many days to scrape out from the start date. default is 150
-    start_date = "2022-01-01"
+    start_date = "2022-01-25"
     if len(sys_args) > 1:
         try:
             start_date = sys_args[1]

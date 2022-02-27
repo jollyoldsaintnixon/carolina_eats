@@ -1,7 +1,7 @@
 import React from "react";
 import MatchingNames from "./MatchingNames"
-import { updateInput } from "../helper";
-import { fetchMenuItemNamesActionCreator } from '../actions/menu_items_actions'
+import { updateInput } from "../../helper";
+import { fetchMenuItemNamesActionCreator } from '../../actions/menu_items_actions'
 import { connect } from "react-redux";
 
 class NameSearch extends React.Component {

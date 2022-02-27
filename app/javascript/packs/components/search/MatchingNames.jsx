@@ -1,7 +1,9 @@
 import { timers } from 'jquery'
 import React from 'react'
+import { connect } from 'react-redux'
+import { saveLikedItemActionCreator } from "../../actions/menu_items_actions"
 
-export default class MatchingNames extends React.Component {
+class MatchingNames extends React.Component {
     constructor(props) {
         super(props)
         
@@ -12,12 +14,13 @@ export default class MatchingNames extends React.Component {
 
     makeMatches() {
         const { search_text, menu_item_names } = this.props
-        const { dictionary } = this.state
+        const dictionary = JSON.parse(JSON.stringify(this.state.dictionary))
         if (search_text.length < 1) {
             return null
         }
         let filtered
         if (search_text in dictionary) {
+            debugger
             filtered = dictionary[search_text]
             console.log("in the dict")
         } else {
@@ -90,9 +93,14 @@ export default class MatchingNames extends React.Component {
         return filtered_list.map((item, idx) => {
             return (<div className='matched-name' 
             key={idx}
-            onClick={() => console.log(item)}
+            onClick={(e) => this.handleClick(e, item)}
             >{item}</div>)
         })
+    }
+
+    handleClick(e, item) {
+        e.preventDefault()
+        this.props.saveLikedItem(item)
     }
 
     render() {
@@ -107,3 +115,11 @@ export default class MatchingNames extends React.Component {
     }
 }
 
+const msp = state => ({})
+const mdp = dispatch => (
+    {
+        saveLikedItem: (item_name) => dispatch(saveLikedItemActionCreator(item_name))
+    }
+)
+
+export default connect(msp, mdp)(MatchingNames)

@@ -11,12 +11,4 @@ class Api::MenuItemsController < ApplicationController
     @menu_item = MenuItem.includes(:serve_dates).find(params[:id])
   end
 
-  def liked
-  end
-
-  def update
-  end
-
-  def destroy
-  end
 end

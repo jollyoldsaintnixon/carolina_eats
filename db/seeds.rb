@@ -90,6 +90,7 @@ end
 # byebug
 ServeDate.import(serve_dates)
 
+User.create(email: "t@t.tt", password: "asdfasdf")
 
 # master_menu = File.read('scraped_data/master_menu.txt')
 # created_at = 

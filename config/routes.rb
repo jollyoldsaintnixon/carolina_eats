@@ -5,6 +5,9 @@ Rails.application.routes.draw do
     resources :menu_items, only: [:index, :show]
     get 'menu_item_names', to: 'menu_items#name_index'
     get 'serve_dates/:date', to: 'serve_dates#date_index'
+    get 'liked_menu_items', to: 'users#liked_index'
+    post 'liked_menu_items', to: 'users#add_liked'
+    delete 'liked_menu_items/:item_id', to: 'users#delete_liked'
   end
 
   root 'static_pages#root'

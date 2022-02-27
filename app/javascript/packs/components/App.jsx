@@ -3,7 +3,7 @@ import ItemCard from "./ItemCard";
 import { connect } from 'react-redux'
 // import { fetchMenuItems } from "../util/menu_items_util";
 import { fetchMenuItemsActionCreator, fetchMenuItemNamesActionCreator } from "../actions/menu_items_actions"
-import NameSearch from "./NameSearch";
+import NameSearch from "./search/NameSearch";
 import SessionBar from "./session/SessionBar";
 import Display from "./Display";
 
@@ -23,9 +23,9 @@ class App extends React.Component {
         //     .then(() => this.props.fetchMenuItems())
         //     .then(({menu_items}) => this.setState({menu_items}//, state => console.log(state)
         //     ))
-        this.props.fetchMenuItems()
-            .then(({menu_items}) => this.setState({menu_items}//, state => console.log(state)
-            ))
+        // this.props.fetchMenuItems()
+        //     .then(({menu_items}) => this.setState({menu_items}//, state => console.log(state)
+        //     ))
     }
 
     makeItemCards() {
@@ -50,7 +50,7 @@ class App extends React.Component {
                 {/* <ItemCard item={{name: "macaroni"}} userSavedItem={"true"}></ItemCard> */}
                 {/* {menu_items} */}
                 <SessionBar />
-                <Display type="big" date={today}/>
+                <Display />
                 {/* <NameSearch /> */}
             </div>
         )

@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import NameSearch from "../NameSearch";
+import NameSearch from "../search/NameSearch";
 import LogOut from "./LogOut";
 import NoUser from "./NoUser";
 
@@ -16,7 +16,6 @@ class SessionBar extends React.Component{
             return (
                 <>
                     <LogOut />
-                    <NameSearch />
                 </>
             )
         } else {

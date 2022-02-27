@@ -26,7 +26,7 @@ SKIPPED_CATEGORIES = [
     "Deli",
     "Beverages",
     "Salad Bar",
-    ]
+]
 
 def get_html(url):
     response = requests.get(url)
@@ -56,6 +56,9 @@ def get_menu_items(soup, location, date):
                     if not category_name in SKIPPED_CATEGORIES:
                         list_items = sib.select("li")
                         for li in list_items:
+                            # li_link = li.findChildren("a" , recursive=False) # attempting to get class names of element in order to determine what dietary restrictions to add
+                            # for klass in li_link['class']:
+                            #     print(klass)
                             master_info = (category_name, li.get_text().strip())
                             daily_info = (date.isoformat(), location, mealtime, category_name, li.get_text().strip())
                             master_set.add(master_info)
