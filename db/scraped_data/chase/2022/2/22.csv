@@ -1,293 +1,328 @@
 date,location,meal,category,name
-2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Rice Blend
-2022-02-22,chase,Lunch (11am-2pm),Fresh,Chipotle Chicken and Cheese Panini
-2022-02-22,chase,Late Night  (9pm-12am),Pizza,Classic Cheese Pizza
-2022-02-22,chase,Dinner (5pm-8pm),Bakery,Assorted Cookies
-2022-02-22,chase,Lunch (11am-2pm),Create,100% Orange Juice
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Mixed Berries
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Carolina Heirloom Tomatoes
-2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Steamed Whole Green Beans
-2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Diced Mango
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Seasoned Black Beans
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Classic Pepperoni Pizza
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Dinner (5pm-8pm),Pasta,Alfredo Sauce
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Iceberg Lettuce
-2022-02-22,chase,Lunch (11am-2pm),Create,Sliced Bananas
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Black Olives
-2022-02-22,chase,Breakfast  (7am-11am),Bakery,Lemon Poppyseed Muffin
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,American Cheese
-2022-02-22,chase,Lunch (11am-2pm),International Flavors,Chili Garlic Sauce
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Garden Burger Patty
-2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Grilled Italian Sausage and Peppers
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Queso Sauce
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Diced Yellow Onions
-2022-02-22,chase,Dinner (5pm-8pm),Bakery,Tar Heel Ice Cream
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Classic Cheese Pizza
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Local Grass-fed Burger Patties
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Biscuits
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Hamburger Bun
-2022-02-22,chase,Lunch (11am-2pm),Fresh,Spinach & Artichoke Panini
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Bacon Bits
-2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Classic Cheese Pizza
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Chorizo Succotash
-2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Cinnamon Doughnut Bites
-2022-02-22,chase,Lunch (11am-2pm),Pasta,Bolognese Penne
-2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Pineapple Cubes
-2022-02-22,chase,Lunch (11am-2pm),Pasta,Marinara Sauce
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Dinner (5pm-8pm),Pasta,Penne Pasta
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Sliced Dill Pickles
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Iceberg Lettuce
-2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Braised Cabbage and Apples
-2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Fudge Brownie
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Greek Pizza
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Fudge Brownie
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Pancake Syrup
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Jalapeno Peppers
-2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Mini Grasshopper Cupcake
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Shoestring Fries
-2022-02-22,chase,Breakfast  (7am-11am),Create,Sliced Bananas
-2022-02-22,chase,Lite Lunch (2pm-5pm),Soup and Salads,Turkey Chili
-2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Roasted Garlic Green Beans
-2022-02-22,chase,Late Night  (9pm-12am),Pizza,Classic Pepperoni Pizza
-2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Battered Cod
-2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Peanut Butter Chocolate Chip Cookies
-2022-02-22,chase,Breakfast  (7am-11am),Specialty Bakery,Assorted Yogurt Parfaits
-2022-02-22,chase,Dinner (5pm-8pm),Bakery,Ice Cream Cone
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Cilantro Marinated Chicken
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Cheese Bread
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Sliced Dill Pickles
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Shrimp Scampi Pizza
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Hamburger Bun
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Pork Sausage Gravy
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Udi's Gluten-Free Hamburger Bun
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Rice Krispie Treats
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Black Bean Burger Patty
-2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Strawberries
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Classic Pepperoni Pizza
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Roasted Squash
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Bacon
-2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
-2022-02-22,chase,Late Dinner (8pm-9pm),Pizza,Classic Pepperoni Pizza
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Iceberg Lettuce
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Dinner (5pm-8pm),Bakery,Rice Krispie Treats
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Hamburger Bun
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Local Grass-fed Burger Patties
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Warm Mango Slaw
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Vegan Cheddar Cheese
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Kale and Butternut Salad
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Alfredo Sauce
-2022-02-22,chase,Breakfast  (7am-11am),Bakery,Cruffins
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Gemelli Pasta
-2022-02-22,chase,Late Dinner (8pm-9pm),Pizza,Classic Cheese Pizza
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Baked Jerk Tofu
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Lunch (11am-2pm),International Flavors,Stir- Fry Beef
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Iceberg Lettuce
-2022-02-22,chase,Dinner (5pm-8pm),Create,Spicy Avocado Roll
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Carolina Heirloom Tomatoes
-2022-02-22,chase,Breakfast  (7am-11am),Create,Vanilla Greek Yogurt
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Local Grass-fed Burger Patties
-2022-02-22,chase,Lunch (11am-2pm),Create,Baby Spinach
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Breakfast  (7am-11am),Create,100% Orange Juice
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,American Cheese
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Garden Burger Patty
-2022-02-22,chase,Dinner (5pm-8pm),Pizza,Vegan Cheese Pizza
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
 2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Tartar Sauce
-2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Basmati Rice
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Sliced Dill Pickles
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'doughs Everything Bagel
 2022-02-22,chase,Dinner (5pm-8pm),Pizza,Classic Cheese Pizza
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Udi's Gluten-Free Hamburger Bun
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Shoestring Fries
-2022-02-22,chase,Dinner (5pm-8pm),Pasta,Sausage Cavatappi
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Lunch (11am-2pm),Create,100% Apple Juice
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Sliced Dill Pickles
-2022-02-22,chase,Dinner (5pm-8pm),Fresh,Spinach & Artichoke Panini
-2022-02-22,chase,Lunch (11am-2pm),International Flavors,Broccoli
-2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Roasted Butternut Squash
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Pico Salsa
-2022-02-22,chase,Lunch (11am-2pm),Create,Blueberries
-2022-02-22,chase,Dinner (5pm-8pm),Bakery,Fudge Brownie
-2022-02-22,chase,Dinner (5pm-8pm),Pasta,Marinara Sauce
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Black Bean Burger Patty
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Grilled Cheese Sandwich
-2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Mini Grasshopper Cupcake
-2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,White Bean and Pepper Stew
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Grilled Cheese Sandwich
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Dinner (5pm-8pm),Soup and Salads,Turkey Chili
-2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Mango
-2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Pineapple Cubes
-2022-02-22,chase,Lunch (11am-2pm),Bakery,Ice Cream Cone
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Steamed Green Peas
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Shoestring Fries
-2022-02-22,chase,Late Night  (9pm-12am),Bakery,Assorted Cookies
-2022-02-22,chase,Breakfast  (7am-11am),Bakery,Vegan Date Bread
-2022-02-22,chase,Breakfast  (7am-11am),Bakery,Blueberry Muffin
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Breakfast  (7am-11am),Specialty Bakery,Assorted Yogurts
-2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Mixed Berries
-2022-02-22,chase,Late Night  (9pm-12am),Bakery,Assorted Brownies
-2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Roasted Yellow Squash
-2022-02-22,chase,Dinner (5pm-8pm),International Flavors,General Tso Tempura Chicken
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Vegan Cheddar Cheese
-2022-02-22,chase,Lunch (11am-2pm),Bakery,Assorted Cookies
-2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Broccoli Rabe with Garlic
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Dinner (5pm-8pm),Pizza,Shrimp Scampi Pizza
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Hot Tortilla Chips
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Udi's Gluten-Free Hamburger Bun
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Mushrooms
-2022-02-22,chase,Lunch (11am-2pm),Pasta,Alfredo Sauce
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Iceberg Lettuce
-2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Cinnamon Doughnut Bites
-2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Assorted Cookies
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Scrambled Eggs
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Dinner (5pm-8pm),Pizza,Classic Pepperoni Pizza
-2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-02-22,chase,Dinner (5pm-8pm),Fresh,Chipotle Chicken and Cheese Panini
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Mixed Bell Peppers
-2022-02-22,chase,Lunch (11am-2pm),Bakery,Tar Heel Ice Cream
-2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Roasted Yukon Potatoes
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Local Grass-fed Burger Patties
-2022-02-22,chase,Late Night  (9pm-12am),Specialty Bakery,Pineapple Smoothie
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Strawberries
-2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Cheddar Cheese
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Carolina Heirloom Tomatoes
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Whole Wheat French Toast
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Vegan Cheddar Cheese
-2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Tar Heel Ice Cream
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,American Cheese
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Garden Burger Patty
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Guacamole
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Blueberry Muffin
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Italian Sausage
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Hamburger Bun
-2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Cinnamon Doughnut Bites
-2022-02-22,chase,Lunch (11am-2pm),Pasta,Penne Pasta
-2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Peanut Butter Chocolate Chip Cookies
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Kalamata Olives
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Diced Ham
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Pineapple
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Carolina Heirloom Tomatoes
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Fudge Brownie
 2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Original Bagel
-2022-02-22,chase,Lunch (11am-2pm),Pizza,Vegan Cheese Pizza
-2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Rouladen Sauce with Bacon
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Cilantro Lime Chicken
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,American Cheese
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Fried Tater Tots
+2022-02-22,chase,Dinner (5pm-8pm),Bakery,Ice Cream Cone
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-02-22,chase,Lunch (11am-2pm),Pasta,Alfredo Sauce
+2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Warm Mango Slaw
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Green Coconut Curry
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Breakfast  (7am-11am),Bakery,Blueberry Muffin
 2022-02-22,chase,Breakfast  (7am-11am),Bakery,Assorted Donuts
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Garden Burger Patty
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Shoestring Fries
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Breakfast  (7am-11am),Bakery,Lemon Poppyseed Muffin
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Grilled Cheese Sandwich
 2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Roasted Eggplant
-2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Vegan Cheese Pizza
+2022-02-22,chase,Dinner (5pm-8pm),Bakery,Tar Heel Ice Cream
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Seasoned Black Beans
+2022-02-22,chase,Lunch (11am-2pm),Create,100% Apple Juice
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Cilantro Lime Chicken
 2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Peanut Butter Chocolate Chip Cookies
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-02-22,chase,Dinner (5pm-8pm),Pizza,Greek Pizza
-2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Brown Rice
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Artichoke Hearts
-2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Marinara Sauce
-2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Ice Cream Cone
-2022-02-22,chase,Breakfast  (7am-11am),Create,Baby Spinach
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-02-22,chase,Lite Lunch (2pm-5pm),Soup and Salads,White Bean and Pepper Stew
-2022-02-22,chase,Dinner (5pm-8pm),Create,Spicy Tuna Roll
-2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Sour Cream
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-02-22,chase,Lunch (11am-2pm),Bakery,Fudge Brownie
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Black Bean Burger Patty
-2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Ice Cream Cone
-2022-02-22,chase,Late Night  (9pm-12am),Bakery,Rice Krispie Treats
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Grilled Cheese Sandwich
-2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Sliced Dill Pickles
-2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Black Bean Burger Patty
-2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Turkey Chili
+2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Rice Blend
+2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Roasted Yukon Potatoes
+2022-02-22,chase,Dinner (5pm-8pm),Bakery,Assorted Cookies
+2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Classic Pepperoni Pizza
+2022-02-22,chase,Dinner (5pm-8pm),Fresh,Spinach & Artichoke Panini
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Greek Pizza
+2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Carolina Heirloom Tomatoes
+2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Mango
+2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Roasted Zucchini
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Vegan Cheddar Cheese
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Sliced Dill Pickles
+2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,White Bean and Pepper Stew
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'doughs Everything Bagel
+2022-02-22,chase,Dinner (5pm-8pm),Pizza,Vegan Cheese Pizza
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Local Grass-fed Burger Patties
+2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Pineapple Cubes
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Iceberg Lettuce
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Grilled Italian Sausage and Peppers
+2022-02-22,chase,Dinner (5pm-8pm),Pasta,Sausage Cavatappi
+2022-02-22,chase,Dinner (5pm-8pm),Create,Spicy Avocado Roll
+2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Steamed Green Peas
 2022-02-22,chase,Dinner (5pm-8pm),Pizza,Cheese Bread
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,American Cheese
+2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Cajun Chicken Breast
+2022-02-22,chase,Dinner (5pm-8pm),Fresh,Chipotle Chicken and Cheese Panini
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Battered Cod
+2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Mini Grasshopper Cupcake
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Mediterranean Macaroni Salad
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Shoestring Fries
+2022-02-22,chase,Lunch (11am-2pm),Bakery,Fudge Brownie
+2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Diced Mango
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Lunch (11am-2pm),International Flavors,Broccoli
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Lunch (11am-2pm),Pasta,Bolognese Penne
+2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Marinated Flank Steak
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Carolina Heirloom Tomatoes
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-02-22,chase,Late Night  (9pm-12am),Specialty Bakery,Pineapple Smoothie
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Breakfast  (7am-11am),Specialty Bakery,Assorted Yogurts
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Local Grass-fed Burger Patties
+2022-02-22,chase,Dinner (5pm-8pm),Create,Spicy Tuna Roll
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Brown Rice
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Mixed Bell Peppers
+2022-02-22,chase,Lite Lunch (2pm-5pm),Soup and Salads,Turkey Chili
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Grilled Cheese Sandwich
+2022-02-22,chase,Breakfast  (7am-11am),Create,Sliced Bananas
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Original Bagel
+2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Mango
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Alfredo Sauce
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Cinnamon Doughnut Bites
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Garden Burger Patty
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Shoestring Fries
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Black Bean Burger Patty
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Classic Pepperoni Pizza
+2022-02-22,chase,Lunch (11am-2pm),International Flavors,Stir- Fry Beef
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Pineapple
+2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Carolina Heirloom Tomatoes
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Kale and Butternut Salad
+2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Fudge Brownie
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),Pizza,Classic Pepperoni Pizza
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Jalapeno Peppers
+2022-02-22,chase,Lunch (11am-2pm),Pasta,Marinara Sauce
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Local Grass-fed Burger Patties
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Garden Burger Patty
+2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Rice Krispie Treats
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,American Cheese
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Black Olives
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
 2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Grilled Cheese Sandwich
 2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Cauliflower Rice
-2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Marinated Flank Steak
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Udi's Gluten-Free Hamburger Bun
-2022-02-22,chase,Breakfast  (7am-11am),Create,100% Apple Juice
-2022-02-22,chase,Breakfast  (7am-11am),Bakery,Cinnamon Rolls
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Veggie Sausage
-2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,White Rice
-2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Mini Grasshopper Cupcake
-2022-02-22,chase,Lunch (11am-2pm),Bakery,Rice Krispie Treats
-2022-02-22,chase,Dinner (5pm-8pm),Soup and Salads,White Bean and Pepper Stew
-2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Assorted Cookies
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
 2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Bell Peppers
-2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Coleslaw
-2022-02-22,chase,Breakfast  (7am-11am),Create,Blueberries
-2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Mediterranean Macaroni Salad
-2022-02-22,chase,Lunch (11am-2pm),The Griddle,Vegan Cheddar Cheese
-2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
-2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Roasted Zucchini
-2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Rice Krispie Treats
-2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Mango
-2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Green Coconut Curry
-2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Brownie
-2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Mushrooms
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Udi's Gluten-Free Hamburger Bun
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Sliced Dill Pickles
+2022-02-22,chase,Lunch (11am-2pm),International Flavors,Chili Garlic Sauce
+2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Classic Cheese Pizza
+2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Mini Grasshopper Cupcake
+2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Ice Cream Cone
+2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Mixed Berries
+2022-02-22,chase,Dinner (5pm-8pm),International Flavors,General Tso Tempura Chicken
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Hamburger Bun
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Breakfast  (7am-11am),Create,100% Orange Juice
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Lunch (11am-2pm),Create,Sliced Bananas
+2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Broccoli Rabe with Garlic
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Biscuits
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Bacon Bits
 2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Tar Heel Ice Cream
-2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'doughs Everything Bagel
-2022-02-22,chase,Late Night  (9pm-12am),Pizza,Vegan Cheese Pizza
-2022-02-22,chase,Lunch (11am-2pm),Create,Vanilla Greek Yogurt
-2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Cajun Chicken Breast
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Iceberg Lettuce
+2022-02-22,chase,Breakfast  (7am-11am),Create,Baby Spinach
+2022-02-22,chase,Lite Lunch (2pm-5pm),Specialty Bakery,Peanut Butter Chocolate Chip Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),Pasta,Penne Pasta
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Braised Cabbage and Apples
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Chorizo Succotash
+2022-02-22,chase,Lite Lunch (2pm-5pm),Bakery,Assorted Cookies
+2022-02-22,chase,Late Night  (9pm-12am),Pizza,Classic Pepperoni Pizza
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-02-22,chase,Lunch (11am-2pm),Soup and Salads,Turkey Chili
+2022-02-22,chase,Breakfast  (7am-11am),Bakery,Vegan Date Bread
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Pico Salsa
+2022-02-22,chase,Breakfast  (7am-11am),Bakery,Cinnamon Rolls
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Udi's Gluten-Free Hamburger Bun
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Hamburger Bun
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Scrambled Eggs
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Lite Lunch (2pm-5pm),Pizza,Vegan Cheese Pizza
+2022-02-22,chase,Dinner (5pm-8pm),Pizza,Greek Pizza
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Lunch (11am-2pm),Vegan Plant Forward,Basmati Rice
+2022-02-22,chase,Dinner (5pm-8pm),Pasta,Alfredo Sauce
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Cinnamon Doughnut Bites
+2022-02-22,chase,Lunch (11am-2pm),Bakery,Rice Krispie Treats
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Dinner (5pm-8pm),Soup and Salads,White Bean and Pepper Stew
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Sour Cream
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Iceberg Lettuce
+2022-02-22,chase,Breakfast  (7am-11am),Specialty Bakery,Assorted Yogurt Parfaits
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Mixed Berries
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),International Flavors,Bell Peppers
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Artichoke Hearts
+2022-02-22,chase,Lunch (11am-2pm),Bakery,Ice Cream Cone
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Shrimp Scampi Pizza
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Shoestring Fries
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Black Bean Burger Patty
 2022-02-22,chase,Lunch (11am-2pm),International Flavors,White Rice
+2022-02-22,chase,Lunch (11am-2pm),Create,100% Orange Juice
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Lunch (11am-2pm),Fresh,Spinach & Artichoke Panini
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Coleslaw
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Carolina Heirloom Tomatoes
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Hot Tortilla Chips
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Lunch (11am-2pm),Create,Baby Spinach
+2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,Tartar Sauce
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Marinara Sauce
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Gemelli Pasta
+2022-02-22,chase,Lunch (11am-2pm),Bakery,Tar Heel Ice Cream
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Buttermilk Pancakes
+2022-02-22,chase,Breakfast  (7am-11am),Bakery,Cruffins
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Udi's Gluten-Free Hamburger Bun
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Classic Cheese Pizza
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Queso Sauce
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Local Grass-fed Burger Patties
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Hamburger Bun
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Italian Sausage
+2022-02-22,chase,Lunch (11am-2pm),The Kitchen Table,White Rice
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Lunch (11am-2pm),Fresh,Chipotle Chicken and Cheese Panini
+2022-02-22,chase,Lunch (11am-2pm),Bakery,Assorted Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),Pizza,Classic Cheese Pizza
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Vegan Cheddar Cheese
+2022-02-22,chase,Dinner (5pm-8pm),Bakery,Fudge Brownie
+2022-02-22,chase,Lunch (11am-2pm),Pasta,Penne Pasta
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Iceberg Lettuce
+2022-02-22,chase,Breakfast  (7am-11am),Create,Blueberries
+2022-02-22,chase,Breakfast  (7am-11am),Create,Nonfat Vanilla Greek Yogurt
+2022-02-22,chase,Lunch (11am-2pm),Specialty Bakery,Peanut Butter Chocolate Chip Cookies
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Rice Krispie Treats
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Ice Cream Cone
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Vegan Cheese Pizza
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,JP's Blueberry Muffin
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Cheddar Cheese
+2022-02-22,chase,Dinner (5pm-8pm),Pizza,Classic Pepperoni Pizza
+2022-02-22,chase,Late Night  (9pm-12am),Bakery,Rice Krispie Treats
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Kalamata Olives
+2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Upside-Down Pineapple Coconut Cake
+2022-02-22,chase,Lunch (11am-2pm),Pizza,Cheese Bread
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Vegan Cheddar Cheese
+2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Rouladen Sauce with Bacon
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Diced Yellow Onions
+2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Tar Heel Ice Cream
+2022-02-22,chase,Late Night  (9pm-12am),Pizza,Classic Cheese Pizza
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Shoestring Fries
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Black Bean Burger Patty
+2022-02-22,chase,Lunch (11am-2pm),Create,Frozen Strawberries
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,American Cheese
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Diced Ham
+2022-02-22,chase,Late Dinner (8pm-9pm),Bakery,Assorted Cookies
+2022-02-22,chase,Dinner (5pm-8pm),Chef's Corner,Cilantro Marinated Chicken
+2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Mini Grasshopper Cupcake
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Grilled Cheese Sandwich
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Dinner (5pm-8pm),Nacho Bar,Guacamole
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Lunch (11am-2pm),Create,Blueberries
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Garden Burger Patty
+2022-02-22,chase,Lunch (11am-2pm),Create,Nonfat Vanilla Greek Yogurt
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),Pasta,Marinara Sauce
+2022-02-22,chase,Late Night  (9pm-12am),Bakery,Assorted Cookies
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Pork Sausage Patties
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Pancake Syrup
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Udi's Gluten-Free Hamburger Bun
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,Vegan Cheddar Cheese
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Black Bean Burger Patty
+2022-02-22,chase,Late Night  (9pm-12am),Pizza,Vegan Cheese Pizza
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Hamburger Bun
+2022-02-22,chase,Dinner (5pm-8pm),Soup and Salads,Turkey Chili
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Veggie Sausage
+2022-02-22,chase,Dinner (5pm-8pm),Simply Prepared Grill,Roasted Squash
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-02-22,chase,Late Night  (9pm-12am),The Griddle,American Cheese
+2022-02-22,chase,Lite Lunch (2pm-5pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Baked Jerk Tofu
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,JP's Brownie
+2022-02-22,chase,Lunch (11am-2pm),The Griddle,Sliced Dill Pickles
+2022-02-22,chase,Lite Lunch (2pm-5pm),Soup and Salads,White Bean and Pepper Stew
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Breakfast  (7am-11am),Create,100% Apple Juice
+2022-02-22,chase,Late Dinner (8pm-9pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Lunch (11am-2pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-02-22,chase,Dinner (5pm-8pm),The Griddle,Iceberg Lettuce
+2022-02-22,chase,Late Dinner (8pm-9pm),The Griddle,Garden Burger Patty
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Fried Tater Tots
+2022-02-22,chase,Dinner (5pm-8pm),Specialty Bakery,Cinnamon Doughnut Bites
+2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Strawberries
+2022-02-22,chase,Lunch (11am-2pm),Simply Prepared Grill,Roasted Yellow Squash
+2022-02-22,chase,Dinner (5pm-8pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-02-22,chase,Dinner (5pm-8pm),Vegan Plant Forward,Roasted Butternut Squash
+2022-02-22,chase,Late Night  (9pm-12am),Bakery,Assorted Brownies
+2022-02-22,chase,Dinner (5pm-8pm),The Kitchen Table,Steamed Green Peas
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-02-22,chase,Late Night  (9pm-12am),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-02-22,chase,Breakfast  (7am-11am),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-02-22,chase,Dinner (5pm-8pm),Pizza,Shrimp Scampi Pizza
+2022-02-22,chase,Breakfast  (7am-11am),Create,Frozen Pineapple Cubes
+2022-02-22,chase,Late Night  (9pm-12am),The Kitchen Table,Pork Sausage Gravy
+2022-02-22,chase,Dinner (5pm-8pm),Bakery,Rice Krispie Treats

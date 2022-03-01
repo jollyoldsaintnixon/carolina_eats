@@ -11,6 +11,7 @@ import { merge, cloneDeep } from 'lodash'
 export default (state = {}, action) => {
   
   Object.freeze(state)
+  const clone = cloneDeep(state)
   switch (action.type) {
     case RECEIVE_MENU_ITEMS:
       return action.menu_items
@@ -21,14 +22,14 @@ export default (state = {}, action) => {
         menu_item_names: action.menu_item_names
       })
     case RECEIVE_LIKED_INDEX:
-      return merge({}, state, { liked_menu_items: action.liked_menu_items })
+      clone.liked_menu_items = action.liked_menu_items
+      return clone
     case POST_LIKED_ITEM:
       const added_liked_item = { liked_menu_items: 
           { [action.liked_item.id]: action.liked_item }
          }
       return merge({}, state, added_liked_item)
     case DELETE_LIKED_ITEM:
-         const clone = cloneDeep(state)
          delete clone.liked_menu_items[action.item_id]
          return clone
     default:

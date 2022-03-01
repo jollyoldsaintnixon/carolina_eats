@@ -15,7 +15,7 @@
 #  fk_rails_...  (menu_item_id => menu_items.id)
 #
 class ServeDate < ApplicationRecord
-    LOCATIONS = ["chase", "top-of-lenoir"]
+    LOCATIONS = ["Chase", "Top-of-Lenoir"]
     belongs_to :menu_item
     
     validates :start_time, :location, presence: true

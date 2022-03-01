@@ -21,14 +21,15 @@ class LogOut extends React.Component {
     render() {
         return (
         <div className="log-out-div">
+            {this.props.current_user.email}
             <div className='log-out-button' onClick={this.handleSubmit}>Log Out</div>
         </div>
         )
     }
 }
 
-const msp = () => ({
-
+const msp = (state) => ({
+    current_user: state.entities.users[state.session.id]
 })
 
 const mdp = dispatch => ({

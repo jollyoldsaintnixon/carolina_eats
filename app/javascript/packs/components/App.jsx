@@ -49,7 +49,7 @@ class App extends React.Component {
             <div>
                 {/* <ItemCard item={{name: "macaroni"}} userSavedItem={"true"}></ItemCard> */}
                 {/* {menu_items} */}
-                <SessionBar />
+                <SessionBar current_user={this.props.current_user} />
                 <Display />
                 {/* <NameSearch /> */}
             </div>
@@ -57,8 +57,10 @@ class App extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-menu_items: state.entities.menu_items,
+const mapStateToProps = ({ entities: { menu_items, users }, session: { id }, }) => ({
+// menu_items: state.entities.menu_items,
+menu_items,
+current_user: users[id]
 // initials: `${state.name[0]}. ${ownProps.lastName[0]}.`
 });
 

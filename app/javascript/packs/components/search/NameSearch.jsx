@@ -10,7 +10,7 @@ class NameSearch extends React.Component {
 
         this.state = {
             search_text: "",
-            menu_item_names: ["Loading..."]
+            menu_item_names: ["Loading..."] // [name, id]
         }
     }
 
@@ -23,6 +23,7 @@ class NameSearch extends React.Component {
 
     render() {
         const { search_text, menu_item_names } = this.state
+        console.log(menu_item_names)
         return (
             <div className="name-search-div">
                 <input type="text" placeholder="Enter your favorite food" onChange={updateInput('search_text', this)} />

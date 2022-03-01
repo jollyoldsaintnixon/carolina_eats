@@ -5,17 +5,23 @@ import { deleteLikedItemActionCreator } from "../../actions/menu_items_actions"
 class ChosenItem extends React.Component {
     constructor(props) {
         super(props)
+
+        this.state = {
+            hidden: false
+        }
     }
 
     handleDelete(e, item_id) {
         e.preventDefault()
         this.props.deleteLikedItem(item_id)
+        this.setState({hidden: true})
     }
 
     render() {
         const { key, item } = this.props
+        const hidden_class = this.state.hidden ? " hidden" : ""
         return (
-            <div className="chosen-item" key={key}>
+            <div className="chosen-item" key={key} style={{visibility: this.state.hidden ? 'hidden' : 'visible' }} >
                 {item.name}
                 <div className="chosen-item-delete" onClick={(e) => this.handleDelete(e, item.id)}>X</div>
             </div>

@@ -9,22 +9,22 @@ class ChosenList extends React.Component {
     }
 
     componentDidMount() {
-        const { current_user } = this.props
-        if (current_user) {
-            this.props.fetchLikedMenuItems()
-             
-        }
+        // const { current_user } = this.props
+        // if (current_user) {
+            this.props.fetchLikedMenuItems()         
+        // }
     }
 
     componentDidUpdate(prev_props, prev_state) {
-        if (JSON.stringify(prev_props.current_user) === 
+        if (JSON.stringify(prev_props.current_user) !== 
             JSON.stringify(this.props.current_user)) {
-                return
+                this.props.fetchLikedMenuItems()
             }
-        const { current_user } = this.props
-        if (current_user) {
-            this.props.fetchLikedMenuItems()
-        }
+        // const { current_user } = this.props
+        // if (current_user) {
+        // } else { // logout
+        //     this.props.clearLikedMenuItems()
+        // }
     }
 
     makeLikedMenuItems() {

@@ -26,6 +26,7 @@ class SessionBar extends React.Component{
     }
 
     render() {
+        console.log(this.props.errors)
         return (
             <div className="session-bar">
                 {this.displaySession()}
@@ -35,8 +36,9 @@ class SessionBar extends React.Component{
 
 }
 
-const msp = ({ session: { id }, entities: { users }}) => ({
-    current_user: users[id]
+const msp = ({ session: { id }, entities: { users }, errors: session }) => ({
+    current_user: users[id],
+    errors: session
 })
 
 export default connect(msp)(SessionBar)

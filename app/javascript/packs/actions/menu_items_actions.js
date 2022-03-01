@@ -111,8 +111,8 @@ export const fetchLikedMenuItemsActionCreator = () => dispatch => {
     )
 }
 
-export const saveLikedItemActionCreator = (item_name) => dispatch => {
-    const promise = APIUTIL.postLikedItem(item_name)
+export const saveLikedItemActionCreator = (item_id) => dispatch => {
+    const promise = APIUTIL.postLikedItem(item_id)
     return promise.then(liked_item => dispatch(postLikedItemAction(liked_item)))
 }
 

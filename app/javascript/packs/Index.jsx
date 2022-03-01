@@ -11,11 +11,10 @@ import Root from './Root'
 
 document.addEventListener('DOMContentLoaded', () => {
   let store
-
   if (window.current_user) {
     const preloaded_state = {
       entities: {
-        users: { [window.current_user]: window.current_user }
+        users: { [window.current_user.id]: window.current_user }
       },
       session: { id: window.current_user.id }
     }

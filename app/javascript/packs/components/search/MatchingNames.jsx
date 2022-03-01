@@ -24,25 +24,27 @@ class MatchingNames extends React.Component {
             filtered = dictionary[search_text]
             console.log("in the dict")
         } else {
-            filtered = this.filter(menu_item_names, search_text)
+            filtered = this.filter_sort_renormalize(menu_item_names, search_text)
             dictionary[search_text] = filtered // memoize
         }
         
         return this.makeElements(filtered)
     }
 
-    filter(menu_item_names, search_text) {
+    filter_sort_renormalize(menu_item_names, search_text) {
         const c = search_text[0]
         const filtered_hash = {}
         for (let item of menu_item_names) {
-            const idx = item.toLowerCase().indexOf(c.toLowerCase())
+            const name = item[0] // that'ts how it's set up. a menu item name is [name, id]
+            const idx = name.toLowerCase().indexOf(c.toLowerCase())
             if (idx >= 0) {
-                const sliced = item.slice(idx+1).toLowerCase()
+                const sliced = name.slice(idx+1).toLowerCase()
                 if (sliced.length >= search_text.length - 1) { // determine if it is long enough
-                    filtered_hash[item] = {
+                    filtered_hash[name] = {
                         sliced: sliced, 
                         space_between: 0, 
-                        initial_idx: idx
+                        initial_idx: idx,
+                        id: item[1]
                     } 
                 }
             }
@@ -55,7 +57,8 @@ class MatchingNames extends React.Component {
         
         if (!str.length) {
             const sorted_keys = this.fancySort(item_hash)
-            return sorted_keys
+            const renormalized_keys = sorted_keys.map(k => [k, item_hash[k].id])
+            return renormalized_keys
         }
         for (const [key, value] of Object.entries(item_hash)) {
             const c = str[0]
@@ -93,14 +96,14 @@ class MatchingNames extends React.Component {
         return filtered_list.map((item, idx) => {
             return (<div className='matched-name' 
             key={idx}
-            onClick={(e) => this.handleClick(e, item)}
-            >{item}</div>)
+            onClick={(e) => this.handleClick(e, item[1])} // item[1] is id
+            >{item[0]}</div>) // item[0] is name
         })
     }
 
-    handleClick(e, item) {
+    handleClick(e, item_id) {
         e.preventDefault()
-        this.props.saveLikedItem(item)
+        this.props.saveLikedItem(item_id)
     }
 
     render() {
@@ -118,7 +121,7 @@ class MatchingNames extends React.Component {
 const msp = state => ({})
 const mdp = dispatch => (
     {
-        saveLikedItem: (item_name) => dispatch(saveLikedItemActionCreator(item_name))
+        saveLikedItem: (item_id) => dispatch(saveLikedItemActionCreator(item_id))
     }
 )
 

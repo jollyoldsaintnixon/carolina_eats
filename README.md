@@ -52,7 +52,6 @@ TODO:
     menu_items:
         BONUS: include dietary preference category. consider adding a boolean field for each dietary restriction and the same number of headers to the csv file. then you can just put true or false in each respective column based on whether or not BSoup finds the element with a class search. the class names are like "prop-vegan" and are within the anchor tag of the li that is iterated over to get the menu item name.
         - search for added liked menu item by id. will require significant refactoring
-        - delete liked items functionality
     serve_dates:
         load serve dates in a paginating way
     display:

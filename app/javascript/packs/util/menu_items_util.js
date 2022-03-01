@@ -33,11 +33,11 @@ export const fetchLikedMenuItems = () => {
     })
 }
 
-export const postLikedItem = (item_name) => {
+export const postLikedItem = (item_id) => {
     return $.ajax({
         method: "POST",
         url: '/api/liked_menu_items',
-        data: { item_name }
+        data: { item_id }
     })
 }
 

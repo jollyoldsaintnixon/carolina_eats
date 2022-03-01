@@ -1,6 +1,8 @@
 <% if logged_in? %>
   <script type='text/javascript'>
-    window.current_user = <%= render('api/users/user.json.jbuilder',
-      user: current_user).html_safe %>
+    window.current_user = <%= 
+    render('api/users/user.json.jbuilder',
+      user: current_user).html_safe
+       %>
   </script>
 <% end %>

@@ -34,7 +34,13 @@ const clearSessionErrors = () => {
 export const logInActionCreator = (user) => dispatch => {
     return APIUTIL.sendLogIn(user)
         .then(
-            (new_user) => dispatch(receiveCurrentUser(new_user)),
+            (new_user) => {
+                if (new_user.errors) {
+                    dispatch(recieveSessionErrors(new_user.errors))
+                } else {
+                    dispatch(receiveCurrentUser(new_user))
+                }
+            },
             errors => dispatch(recieveSessionErrors(errors.responseText))
             )
 }
@@ -43,7 +49,12 @@ export const signUpActionCreator = user => dispatch => {
     return APIUTIL.sendSignUp(user)
         .then(
             new_user => {
-                dispatch(receiveCurrentUser(new_user))},
+                if (new_user.errors) {
+                    dispatch(recieveSessionErrors(new_user.responseJSON))
+                } else {
+                    dispatch(receiveCurrentUser(new_user))
+                }
+            },
             errors => {
                 dispatch(recieveSessionErrors(errors.responseJSON))}
         )

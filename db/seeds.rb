@@ -50,6 +50,8 @@ year = 2022
 month = 1
 day = 0 
 ServeDate::LOCATIONS.each do |location|
+    location=location.downcase
+    puts location
     (1..12).each do |month|
         (1..31).each do |day| # if CSV can't read a file that doesn't exist, then this should fail immediately because it starts at 0
             filename = "db/scraped_data/#{location}/#{year}/#{month}/#{day}.csv"
@@ -70,8 +72,9 @@ ServeDate::LOCATIONS.each do |location|
                     menu_item = items.find {|item| item.name == row["name"]}
                     # byebug
                     if menu_item
+                        sd_location = row["location"].downcase == "chase" ? "Chase" : "Top-of-Lenoir" # code smelly way to get around capitalizing chase and ToL late in the game
                         sd = {
-                            location: row["location"],
+                            location: sd_location,
                             start_time: start_time,
                             end_time: end_time,
                             menu_item_id: menu_item.id,
@@ -90,6 +93,7 @@ end
 # byebug
 ServeDate.import(serve_dates)
 
+puts "complete"
 User.create(email: "t@t.tt", password: "asdfasdf")
 
 # master_menu = File.read('scraped_data/master_menu.txt')
