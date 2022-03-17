@@ -8,7 +8,6 @@ export default class Display extends React.Component {
     }
 
     render() {
-        console.log("in the display")
         return (
             <div className="display-div">
                 <ChosenList />

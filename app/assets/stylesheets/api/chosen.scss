@@ -1,7 +1,8 @@
 .chosen-list {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 33%;
+    max-width: fit-content;
 }
 
 .chosen-item {

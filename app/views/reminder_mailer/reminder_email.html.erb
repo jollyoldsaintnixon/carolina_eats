@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hello from CarolinaEats, <%= @user.email %></h1>
+    <p>
+      Some of your tracked dishes will be served soon:<br>
+    </p>
+    <ul>
+        <% @messages.each do |m| %>
+            <li><%=m%><li>
+        <% end %>
+    </ul>
+    <p>Have a great day!</p>
+  </body>
+</html>

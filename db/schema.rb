@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_20_235600) do
+ActiveRecord::Schema.define(version: 2022_03_15_233549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2022_02_20_235600) do
   create_table "liked_by_users", force: :cascade do |t|
     t.integer "user_id", null: false
     t.integer "menu_item_id", null: false
+    t.datetime "updated_at", null: false
     t.index ["user_id", "menu_item_id"], name: "index_liked_by_users_on_user_id_and_menu_item_id", unique: true
   end
 

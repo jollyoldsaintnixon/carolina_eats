@@ -15,29 +15,31 @@ class Api::UsersController < ApplicationController
         end
     end
 
-    def liked_index
-        if logged_in?
-            @menu_items = @current_user.menu_items.includes(:serve_dates)
-            render 'api/menu_items/item_only_index'
-        else  
-            # render json: ["No current user"], status: 403
-            render json: {}
-        end
-    end
+    # def liked_index
+    #     if logged_in?
+    #         # @menu_items = @current_user.menu_items.includes(:serve_dates)
+    #         @menu_items = @current_user.menu_items.includes(:serve_dates, :liked_by_users).joins(:liked_by_users)
+    #         # debugger
+    #         render 'api/menu_items/item_only_index'
+    #     else  
+    #         # render json: ["No current user"], status: 403
+    #         render json: {}
+    #     end
+    # end
 
-    def add_liked
-        if logged_in?
-            @menu_item = MenuItem.includes(:serve_dates).find_by(id: params[:item_id])
-            if @menu_item
-                current_user.menu_items.push(@menu_item)
-                render 'api/menu_items/show'
-            else  
-                render json: ["Did not find menu item by the id of #{params[:item_id]}"], status: 422
-            end
-        else  
-            render json: ["Not logged in"], status: 403
-        end
-    end
+    # def add_liked
+    #     if logged_in?
+    #         @menu_item = MenuItem.includes(:serve_dates).find_by(id: params[:item_id])
+    #         if @menu_item
+    #             current_user.menu_items.push(@menu_item)
+    #             render 'api/menu_items/show'
+    #         else  
+    #             render json: ["Did not find menu item by the id of #{params[:item_id]}"], status: 422
+    #         end
+    #     else  
+    #         render json: ["Not logged in"], status: 403
+    #     end
+    # end
 
     def delete_liked  
         if logged_in?

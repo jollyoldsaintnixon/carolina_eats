@@ -40,7 +40,6 @@ class OldDisplay extends React.Component {
     componentDidMount() {
         this.props.fetchServeDates(0)
             .then(({serve_dates}) => {
-                console.log(serve_dates)
                 this.setState({
                 serve_dates
             })})

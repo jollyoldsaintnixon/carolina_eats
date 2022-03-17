@@ -1,0 +1,1 @@
+json.partial! "api/liked_by_users/liked_by_user", lbu: @liked_by_user

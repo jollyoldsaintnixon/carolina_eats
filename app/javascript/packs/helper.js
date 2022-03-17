@@ -15,3 +15,9 @@ export const updateInput = (field, component) => {
         })
     }
 }
+
+export const alphaSort = (a, b) => (a.toLowerCase().localeCompare(b.toLowerCase()))
+
+export const noDisplay = (target) => {
+    console.log(target)
+    target.style.display = "none"}

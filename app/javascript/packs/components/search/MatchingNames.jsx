@@ -22,7 +22,6 @@ class MatchingNames extends React.Component {
         if (search_text in dictionary) {
             debugger
             filtered = dictionary[search_text]
-            console.log("in the dict")
         } else {
             filtered = this.filter_sort_renormalize(menu_item_names, search_text)
             dictionary[search_text] = filtered // memoize

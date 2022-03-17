@@ -6,6 +6,7 @@ import { fetchMenuItemsActionCreator, fetchMenuItemNamesActionCreator } from "..
 import NameSearch from "./search/NameSearch";
 import SessionBar from "./session/SessionBar";
 import Display from "./Display";
+// import { sendEscapeSignalActionCreator } from "../actions/ui_actions";
 
 class App extends React.Component {
     constructor(props) {
@@ -15,18 +16,19 @@ class App extends React.Component {
             menu_items: this.props.menu_items,
             menu_item_names: ["Loading..."]
         }
+        // this.handleOnKeyDown = this.handleOnKeyDown.bind(this)
     }
 
-    componentDidMount() {
-        // this.props.fetchMenuItemNames()
-        //     .then(({menu_item_names}) => this.setState({menu_item_names}))
-        //     .then(() => this.props.fetchMenuItems())
-        //     .then(({menu_items}) => this.setState({menu_items}//, state => console.log(state)
-        //     ))
-        // this.props.fetchMenuItems()
-        //     .then(({menu_items}) => this.setState({menu_items}//, state => console.log(state)
-        //     ))
-    }
+    // componentDidMount() {
+    //     document.addEventListener("keydown", this.handleOnKeyDown)
+    // }
+
+    // handleOnKeyDown(e) {
+    //     if (e.key === "Escape") {
+    //         console.log(e.key)
+    //         this.props.sendEscapeSignal()
+    //       }
+    // }
 
     makeItemCards() {
         const { menu_items } = this.state
@@ -43,7 +45,6 @@ class App extends React.Component {
 
     render() {
         // const menu_items = this.makeItemCards()
-        // console.log(this.state)
         const today = Date.now()
         return (
             <div>
@@ -65,6 +66,7 @@ current_user: users[id]
 });
 
 const mapDispatchToProps = dispatch => ({
+    // sendEscapeSignal: () => dispatch(sendEscapeSignalActionCreator()),
     fetchMenuItems: () => dispatch(fetchMenuItemsActionCreator()),
     fetchMenuItemNames: () => dispatch(fetchMenuItemNamesActionCreator())
 });

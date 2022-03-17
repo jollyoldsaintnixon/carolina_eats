@@ -19,11 +19,8 @@ class NameSearch extends React.Component {
             .then(({menu_item_names}) => this.setState({menu_item_names}))
     }
 
-
-
     render() {
         const { search_text, menu_item_names } = this.state
-        console.log(menu_item_names)
         return (
             <div className="name-search-div">
                 <input type="text" placeholder="Enter your favorite food" onChange={updateInput('search_text', this)} />
