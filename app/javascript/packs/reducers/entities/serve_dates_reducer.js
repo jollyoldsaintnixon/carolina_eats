@@ -7,6 +7,7 @@ export default (state = {}, action) => {
   Object.freeze(state)
   switch (action.type) {
     case RECEIVE_SERVE_DATES:
+        console.log(action.serve_dates)
         return merge({}, state, action.serve_dates) // should be a object with a key of the date and value of array of things being served
     default:
       return state;

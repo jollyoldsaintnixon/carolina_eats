@@ -14,7 +14,8 @@ export default (state = {}, action) => {
   const clone = cloneDeep(state)
   switch (action.type) {
     case RECEIVE_MENU_ITEMS:
-      return action.menu_items
+      console.log(action.menu_items)
+      return clone
     case RECEIVE_MENU_ITEM:
       return merge({}, state, {[action.menu_item.id]: action.menu_item})
     case RECEIVE_MENU_ITEM_NAMES:

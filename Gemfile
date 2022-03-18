@@ -35,6 +35,8 @@ gem 'react-rails'
 gem "activerecord-import"
 gem 'sidekiq'
 gem 'sidekiq-status'
+gem 'oj'
+gem 'multi_json', '~> 1.11'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a   console

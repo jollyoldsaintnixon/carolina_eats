@@ -96,8 +96,29 @@ class MatchingNames extends React.Component {
             return (<div className='matched-name' 
             key={idx}
             onClick={(e) => this.handleClick(e, item[1])} // item[1] is id
+            // >{[...this.highlightMatchingText(item[0], idx)]}</div>) // item[0] is name
             >{item[0]}</div>) // item[0] is name
         })
+    }
+
+    // this method is too slow as it stands, even when restricting it to first 10 items
+    highlightMatchingText(item_name, idx) {
+        if (idx < 10) {
+            const { search_text } = this.props
+            const span_list = []
+            let last_idx = 0
+            for (let c of item_name) {
+                if (last_idx < search_text.length && c.toLowerCase() === search_text[last_idx].toLowerCase()) {
+                    span_list.push(<span style={{ fontWeight: "bold" }}>{c}</span>)
+                    last_idx++
+                } else {
+                    span_list.push(c)
+                }
+            }
+            return span_list
+        } else {
+            return item_name
+        }
     }
 
     handleClick(e, item_id) {
@@ -110,7 +131,8 @@ class MatchingNames extends React.Component {
         matches = matches ? matches : null // in case it is undefined
         return (
             
-            <div className='search-list'>
+            <div className='search-list'
+                 style={{ display: this.props.visible_list ? "inherit" : "none"}}>
                 {matches}
             </div>
         )

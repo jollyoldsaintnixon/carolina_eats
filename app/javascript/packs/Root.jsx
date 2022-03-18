@@ -14,6 +14,10 @@ class Root extends React.Component {
     document.addEventListener("keydown", this.handleOnKeyDown)
   }
 
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.handleOnKeyDown)
+  }
+
   handleOnKeyDown(e) {
       if (e.key === "Escape") {
           console.log(e.key)
