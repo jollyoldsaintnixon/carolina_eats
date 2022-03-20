@@ -20,7 +20,6 @@ class MatchingNames extends React.Component {
         }
         let filtered
         if (search_text in dictionary) {
-            debugger
             filtered = dictionary[search_text]
         } else {
             filtered = this.filter_sort_renormalize(menu_item_names, search_text)

@@ -42,7 +42,6 @@ namespace :create_menu_items_and_serve_dates do
 
         # items = MenuItem.all
         # serve_dates = []
-        # # debugger
         # ServeDate::LOCATIONS.each do |location|
         #     (0..6).each do |day|
         #         CSV.foreach("db/scraped_data/updates/today+#{day}/#{location}/menu.csv", headers: true) do |row|
@@ -54,7 +53,6 @@ namespace :create_menu_items_and_serve_dates do
         #             iso_end = formatTime(end_string)
         #             iso_dt_start = "#{date}T#{iso_start}:00-04:00"
         #             iso_dt_end = "#{date}T#{iso_end}:00-04:00"
-        #             # debugger
         #             start_time = DateTime.iso8601(iso_dt_start)
         #             end_time = DateTime.iso8601(iso_dt_end)
 

@@ -1,4 +1,4 @@
-import { RECEIVE_SERVE_DATES_ERRORS } from "../../actions/menu_items_actions";
+import { RECEIVE_SERVE_DATES_ERRORS } from "../../actions/serve_date_actions";
 
 export default (state = [], action) => {
     Object.freeze(state)

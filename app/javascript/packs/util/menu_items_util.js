@@ -12,13 +12,6 @@ export const fetchMenuItem = id => {
     })
 }
 
-export const fetchServeDates = (date) => {
-    return $.ajax({
-        method: 'GET',
-        url: `/api/serve_dates/${date}`
-    })
-}
-
 export const fetchMenuItemNames = () => {
     return $.ajax({
         method: 'GET',

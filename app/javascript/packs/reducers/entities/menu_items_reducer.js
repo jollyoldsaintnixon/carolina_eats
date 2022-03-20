@@ -2,7 +2,7 @@ import { RECEIVE_LIKED_INDEX,
   RECEIVE_MENU_ITEM,
   RECEIVE_MENU_ITEMS,
   RECEIVE_MENU_ITEM_NAMES,
-  POST_LIKED_ITEM,
+  RECEIVE_LIKED_ITEM,
   DELETE_LIKED_ITEM
   } from '../../actions/menu_items_actions'
 
@@ -14,18 +14,17 @@ export default (state = {}, action) => {
   const clone = cloneDeep(state)
   switch (action.type) {
     case RECEIVE_MENU_ITEMS:
-      console.log(action.menu_items)
-      return clone
+      return merge({}, state, action.menu_items)
     case RECEIVE_MENU_ITEM:
       return merge({}, state, {[action.menu_item.id]: action.menu_item})
     case RECEIVE_MENU_ITEM_NAMES:
-      return merge({}, state, {
-        menu_item_names: action.menu_item_names
-      })
+      clone.menu_item_names = action.menu_item_names
+      return clone
     case RECEIVE_LIKED_INDEX:
       clone.liked_menu_items = action.liked_menu_items
       return clone
-    case POST_LIKED_ITEM:
+    case RECEIVE_LIKED_ITEM:
+      console.log(action.liked_item)
       const added_liked_item = { liked_menu_items: 
           { [action.liked_item.id]: action.liked_item }
          }

@@ -56,7 +56,9 @@ controllers:
     * liked menu_item:
         * search for added liked menu item by id. will require significant refactoring
 serve_dates:
-    load serve dates in a paginating way
+    * load serve dates in a paginating way
+    * figure out query that can select associated serve dates based on start_time
+    * right now, the user_index in lbu controller is rendered within the controller. this is fast and easy, but consider breaking it into a view for separation of concerns.
 display:
     attach menu item names to window
     make it to the serve dates controller when trying to query today's serve dates

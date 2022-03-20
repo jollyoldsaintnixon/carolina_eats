@@ -13,7 +13,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        this.props.fetchMenuItems()
+        // this.props.fetchMenuItems()
     }
 
     render() {

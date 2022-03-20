@@ -21,5 +21,6 @@ module CarolinaEats
 
     #ADDED
     config.active_job.queue_adapter = :sidekiq
+    Oj.optimize_rails()
   end
 end

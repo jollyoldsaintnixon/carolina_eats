@@ -19,7 +19,6 @@ class Api::UsersController < ApplicationController
     #     if logged_in?
     #         # @menu_items = @current_user.menu_items.includes(:serve_dates)
     #         @menu_items = @current_user.menu_items.includes(:serve_dates, :liked_by_users).joins(:liked_by_users)
-    #         # debugger
     #         render 'api/menu_items/item_only_index'
     #     else  
     #         # render json: ["No current user"], status: 403

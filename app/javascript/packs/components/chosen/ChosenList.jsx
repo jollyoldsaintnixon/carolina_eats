@@ -27,9 +27,6 @@ class ChosenList extends React.Component {
         const { liked_menu_items } = this.props
         if (!liked_menu_items) return
 
-        const s = Object.values(liked_menu_items)
-            .sort((a, b) => Date.parse(a.updated_at) - Date.parse(b.updated_at))
-
         return Object.values(liked_menu_items)
             .sort((a, b) => Date.parse(a.updated_at) - Date.parse(b.updated_at)) // sorts by date added
             .map((item, idx) => {
@@ -58,7 +55,6 @@ const msp = (
                 menu_items: { liked_menu_items } 
             } 
     }) => {
-    // debugger
     return ({
         liked_menu_items,
         current_user: users[id]

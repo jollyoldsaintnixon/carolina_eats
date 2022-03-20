@@ -11,7 +11,6 @@ class Api::MenuItemsController < ApplicationController
 # sql = "SELECT * FROM menu_items INNER JOIN serve_dates ON serve_dates.menu_item_id = menu_items.id AND serve_dates.start_time BETWEEN ? and ?", Date.today, Date.today+7.days
 # @menu_items = MenuItem.find_by_sql(sql)
 # @menu_items = ActiveRecord::Base.connection.execute(sql)
-# debugger
 #     @shippingservices = Shippingservice.joins(carts: :cart_items).where(
 #   '(cart_items.weight * cart_items.amount) BETWEEN ? AND ?', :weightmin, :weightmax
 # )
@@ -19,7 +18,23 @@ class Api::MenuItemsController < ApplicationController
     # @menu_items = MenuItem.all.includes(:serve_dates)
     #   .where(serve_dates: { start_time: { greater_than: Date.today, less_than: Date.today+7.days} })
     # serve_dates = menu_item.serve_dates.where("start_time >= ? AND start_time <= ? ", Date.today, Date.today+time_window)
-    render 'with_serve_dates_index'
+    # render 'with_serve_dates_index'
+
+
+    ##### CHECK THESE OUT:
+    # media_items.includes(:photo, :video).where(photos: { is_processing: nil }).rank(:position_in_gallery)
+    # media_items.includes(:photo, :video).where('photos.is_processing IS NULL').references(:photo).rank(:position_in_gallery)
+
+    to_render = {}
+    @menu_items.each do |item|
+      to_render[item.id] = {
+        id: item.id,
+        name: item.name,
+        category: item.category,
+        serve_dates: item.serve_dates
+      }
+    end
+    render json: to_render
   end
 
   def name_index
