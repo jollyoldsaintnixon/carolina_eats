@@ -4,12 +4,8 @@ class Api::UsersController < ApplicationController
         @user = User.new(user_params)
         if @user.save
             log_in!(@user)
-            email = ReminderMailer.with(user: @user).welcome_email # later, later
-            if email.deliver_later
-                render :show
-            else  
-                render json: { errors: email.errors.full_messages, status: 422 }
-            end
+            ReminderMailer.with(user: @user).welcome_email.deliver_later
+            render :show
         else  
             render json: @user.errors.full_messages, status: 422
         end

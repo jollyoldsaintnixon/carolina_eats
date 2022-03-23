@@ -3,6 +3,7 @@
 # Table name: liked_by_users
 #
 #  id           :bigint           not null, primary key
+#  updated_at   :datetime         not null
 #  menu_item_id :integer          not null
 #  user_id      :integer          not null
 #

@@ -1,114 +1,236 @@
 date,location,meal,category,name
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Roasted Grape Tomatoes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Ragin' Cajun Fries
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Cajun Breakfast Stir- Fry
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,JP's Blueberry Muffin
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Apple Cinnamon Quickbread
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Apple Cinnamon Quickbread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Vegan Chocolate Banana Bread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Assorted Donuts
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Vegan Chocolate Banana Bread
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Breakfast Potatoes
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Lemon Vinaigrette
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Assorted Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Oatmeal
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Avocado Smash Bowl
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Cranberry Orange Muffin
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Assorted Danishes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Cream of Rice
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Croissant
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),International Flavors,Sausage & Kale Penne
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Tofu-Potato Hash
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Grits
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Cage-Free Egg
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,O'doughs Everything Bagel
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Pancake Syrup
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,American Cheese
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Assorted Danishes
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Assorted Danishes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Bacon
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Biscuits
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Udi's Gluten-Free Hamburger Bun
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Sliced Grilled Baguette
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Homemade Soups,Turkey Chili
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Breakfast Potatoes
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Assorted Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,French Toast
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Coffee Cake
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Assorted Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Garden Burger Patty
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Katz Powdered Donut Holes
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Cream of Rice
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Cranberry Orange Muffin
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Pork Sausage Gravy
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Pork Sausage Link
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Wood Fired Pizza,White Four Cheese Pizza
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Fried Egg
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Wood Fired Pizza,Classic Cheese Pizza
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Pancake Syrup
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Scrambled Eggs
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Rotisserie,Smashed Avocado Spread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Chicago Style Grilled Hot Dog
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Bacon
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Biscuits
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Vegan Banana French Toast
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Coffee Cake
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Apple Cinnamon Quickbread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Vegan Chocolate Banana Bread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Quinoa and Barley Cake
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Cranberry Orange Muffin
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Plant Forward,Enchilada Sauce
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,JP's Brownie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Croissant
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Oatmeal
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Katz Cinnamon Donut Hole
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Wood Fired Pizza,Classic Pepperoni Pizza
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Croissant
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Coffee Cake
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Katz Oatmeal Creme Pie
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,French Toast
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,O'Doughs Original Bagel
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,O'doughs Everything Bagel
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Bakery,Coffee Cake
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Grits
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Cage-Free Egg
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Cranberry Orange Muffin
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,JP's Brownie
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Pancake Syrup
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,JP's Blueberry Muffin
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Specialty Bakery,Croissant
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Apple Cinnamon Quickbread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Pork Sausage Link
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,Katz Glazed Donut Holes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Kitchen Table,Pork Sausage Gravy
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Specialty Bakery,Vegan Chocolate Banana Bread
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Assorted Veggie Toppings
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Bakery,Assorted Danishes
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),The Grill,Hamburger Bun
-2022-03-26,top-of-lenoir,Continental  (10am-11am),Stress Less Cabinet,O'Doughs Original Bagel
-2022-03-26,top-of-lenoir,Continental  (10am-11am),The Kitchen Table,Scrambled Eggs
-2022-03-26,top-of-lenoir,Brunch (11am-3pm),Homemade Soups,Tuscan Minestrone Soup
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Chocolate Chip Scones
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Plant Forward,Montreal Peppers
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Cheddar Cheese
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Bolognese Sauce
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Plant Forward,Edamame
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Hot Tortilla Chips
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Specialty Bakery,Vegan Red Velvet Crinkle Cookie
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Fried Tater Tots
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,JP's Blueberry Muffin
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Wood Fired Pizza,Classic Pepperoni Pizza
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,"Overnight Coconut, Mango, and Blueberry Oats"
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Seasoned Ground Turkey
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Zesty Salsa Verde
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Brown Rice
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Jalapeno Cabbage Slaw
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Kitchen Table,Seasoned Steamed Broccoli
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Homemade Soups,Creamy Queso Dip
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Wood Fired Pizza,Primavera Pizza
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Scrambled Eggs
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Grits
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Hamburger Bun
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Bakery,Fudge Brownie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Rice Pasta
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Marinara Sauce
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Plant Forward,Southern Grain Bowl
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),International Flavors,Baked Penne (Made Without Gluten)
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Wood Fired Pizza,Cheese Bread
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Biscuits
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,American Cheese
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Pico Salsa
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,JP's Brownie
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Whole Wheat French Toast
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Hot Tortilla Chips
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Plant Forward,Wasabi Ginger Mashed Potato
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Bakery,Assorted Brownies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Jalapeno Peppers
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Penne Pasta
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Bananaberry Muffins
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Rice Pasta
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Udi's Gluten-Free Hamburger Bun
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Seasoned Ground Turkey
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Alfredo Sauce
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Sour Cream
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Chocolate Chip Scones
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Zesty Salsa Verde
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Brown Rice
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Jalapeno Cabbage Slaw
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Bakery,Rice Krispie Treats
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Kitchen Table,Seasoned Steamed Broccoli
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Wood Fired Pizza,Classic Pepperoni Pizza
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Vegan Jelly Filled Muffin
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Peppers and Onions Sautee
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Rotisserie,Old Bay Chips
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Homemade Soups,Cream of Broccoli Soup
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Assorted Donuts
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Wood Fired Pizza,Classic Cheese Pizza
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Homemade Soups,Jerk Chicken and Brown Rice Soup
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Whole Grain Penne
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Guava Pastelitos
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Pork Sausage Gravy
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Wood Fired Pizza,Vegan Cheese Pizza
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Kitchen Table,Hearty Steak Fries
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Rotisserie,Herb Roasted Red Potatoes
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Bolognese Sauce
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Peppers and Onions Sautee
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Rotisserie,Chili Garlic BBQ Beef
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Garden Burger Patty
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Rotisserie,Cajun Cod
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Wood Fired Pizza,Classic Cheese Pizza
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Bacon
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,American Cheese
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Cinnamon Rolls
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Pico Salsa
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Lettuce
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Garden Burger Patty
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Udi's Gluten-Free Hamburger Bun
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Bakery,Assorted Cookies
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,JP's Brownie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Sour Cream
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Specialty Bakery,Almond Joy Cheesecake
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Italian Sausage
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Cage-Free Egg
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Wood Fired Pizza,Classic Pepperoni Pizza
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Freshly Roasted Squash and Zucchini
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Kitchen Table,Roasted Butternut Squash
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Turmeric Tofu Scramble
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,JP's Blueberry Muffin
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Assorted Veggie Toppings
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Rotisserie,Sauteed Garlic Broccoli Rabe
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Specialty Bakery,Lemon Cake
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Pork Sausage Link
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Kitchen Table,Red Cabbage Slaw
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Katz Cinnamon Donut Hole
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Guacamole Spread
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Homemade Soups,Creamy Queso Dip
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Rotisserie,Corn Nuggets
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Seasoned Black Beans
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Assorted Veggie Toppings
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Creamy Queso Dip
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Wood Fired Pizza,Primavera Pizza
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Chocolate Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Kitchen Table,Red Cabbage Slaw
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Lettuce
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Blackened Tofu
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Guava Pastelitos
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Rotisserie,Oatmeal
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Penne Pasta
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Kitchen Table,Honey BBQ Pork Chop
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Monterey Jack Cheese
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Sauteed Seasoned Mushrooms
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,White Tortilla
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Crinkle Cut Fries
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Katz Oatmeal Creme Pie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Italian Sausage
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Bakery,Rice Krispie Treats
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Katz Glazed Donut Holes
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Specialty Bakery,Almond Joy Cheesecake
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Cinnamon Rolls
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),The Kitchen Table,Pancake Syrup
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,JP's Brownie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Penne Pasta
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Rotisserie,Balsamic and Roasted Garlic Glazed Brussels Sprouts
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Sauteed Seasoned Mushrooms
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Specialty Bakery,Mixed Berry Cobbler
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),International Flavors,Baked Penne (Made Without Gluten)
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Alfredo Sauce
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,O'Doughs Original Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Rotisserie,Roasted Brussels Sprouts
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Whole Grain Penne
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Bakery,Rice Krispie Treats
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Specialty Bakery,Lemon Cake
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,JP's Brownie
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Vegan Jelly Filled Muffin
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Guacamole Spread
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,"Overnight Coconut, Mango, and Blueberry Oats"
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Specialty Bakery,Mixed Berry Cobbler
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Specialty Bakery,Bananaberry Muffins
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Seasoned Black Beans
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Jalapeno Peppers
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Bakery,Assorted Donuts
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Rice Pasta
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Pasta Bar,Marinara Sauce
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Whole Grain Penne
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Creamy Queso Dip
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Cinnamon Sugar Donuts
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Cheddar Cheese
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Homemade Soups,Cream of Broccoli Soup
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Bolognese Sauce
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Vanilla Glazed Donuts
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Katz Powdered Donut Holes
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Blackened Tofu
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Specialty Bakery,Vegan Red Velvet Crinkle Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Wood Fired Pizza,Vegan Cheese Pizza
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Kitchen Table,Wild Rice
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Monterey Jack Cheese
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Bakery,Assorted Cookies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Wood Fired Pizza,Classic Cheese Pizza
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Homemade Soups,Jerk Chicken and Brown Rice Soup
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Cheese Quesadilla
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,O'Doughs Multigrain Sandwich Slices
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,White Tortilla
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Crinkle Cut Fries
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-03-28,top-of-lenoir,Breakfast (7am-11am),Stress Less Cabinet,O'doughs Everything Bagel
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),The Grill,Grass Fed Burger Patty
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,Kinnikinnick Birthday Cream Sandwich Cookie
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Italian Sausage
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Plant Forward,BBQ Soy Nuggets
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Stress Less Cabinet,Kinnikinnick Mint Magic Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Cilantro Lime Rice
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Freshly Roasted Squash and Zucchini
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,O'doughs Everything Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Bakery,Assorted Cookies
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Burritos & Bowls,Salsa
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,O'Doughs Pumpernickel Bagel
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Pasta Bar,Alfredo Sauce
+2022-03-28,top-of-lenoir,Lite Lunch (3pm-5pm),Stress Less Cabinet,JP's Snickerdoodle Cookie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Grill,Hamburger Bun
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Bakery,Fudge Brownie
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),The Kitchen Table,Crispy Catfish
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,O'Doughs Original Bagel
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Cilantro Lime Rice
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Freshly Roasted Squash and Zucchini
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,Kinnikinnick Cinnabun Fun Sandwich Creme Cookies
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Burritos & Bowls,Salsa
+2022-03-28,top-of-lenoir,Dinner (5pm-8:30pm),Stress Less Cabinet,O'Doughs Original Sandwich Slices
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Wood Fired Pizza,Cheese Bread
+2022-03-28,top-of-lenoir,Lunch (11am-3pm),Pasta Bar,Marinara Sauce

@@ -18,7 +18,7 @@ class ReminderMailer < ApplicationMailer
     def reminder_email # TODO
         @user = params[:user]
         subject = "CarolinaEats Reminders"
-        @messages = params[:messages]
+        @menu_messages = params[:menu_messages]
         mail(to: @user.email, subject: subject)
     end
 end

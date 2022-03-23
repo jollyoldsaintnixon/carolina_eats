@@ -22,6 +22,11 @@ def daily_scraper():
     master = get_master_pickle(PICKLE_FILE_NAME)
     Path(SCRAPE_PATH).mkdir(parents=True, exist_ok=True)
     for day in range(7):
+        """ 
+        looks at each day ahead of input date (default: today)
+        subtracts any new items from the daily scrape and then adds them to a new item list and the master csv
+        then repickles updated master
+        """
         for l in LOCATIONS:
             url = f"https://dining.unc.edu/locations/{l}/?date={date.isoformat()}"
             html = get_html(url)
@@ -31,18 +36,19 @@ def daily_scraper():
             daily_save(daily_set, date, l, day)
             master = update_master(master_additions, master)
         date += datetime.timedelta(days=1)
-
     repickle(master, PICKLE_FILE_NAME)
-
-0
+    
 def daily_save(daily_set, date, location, day):
-    # delta = date - today
-    # day_path = f"next_{WEEKDAYS[date.weekday()]}"
-    # if delta == datetime.timedelta(days=0):
-    #     day_path = 'today'
-    # elif delta == datetime.timedelta(days=1):
-    #     day_path = 'tomorrow'
-    # path = SCRAPE_PATH + f"updates/{day_path}/{location}/"
+    """ 
+    makes a note of new items found on this day as compared to the initial scrape
+    saves under db/scraped_data/updates/today+{days after today}/{location}/
+    new items are saved as additions.csv
+    removed items are saved as deletions.csv
+    the whole daily menu is saved as menu.csv
+    overwrites the original scraped data as db/scraped_data/{location}/{year}/{month}/{int day}.csv
+    finally, it calls compare_sets, passing in the daily scraped set and the paths to the two files to compare
+    (compare_sets is what actaully memoizes the additions/deletions)
+    """
     day_path = f"today+{day}"
 
     path = SCRAPE_PATH + f"updates/{day_path}/{location}/"
@@ -54,6 +60,10 @@ def daily_save(daily_set, date, location, day):
         print(f"error: {path} : {e.strerror}")
 
     with open(path + "menu.csv", "w") as file:
+        """ 
+        the whole daily menu is 
+        saved as menu.csv. saves under db/scraped_data/updates/today+{days after today}/{location}/ 
+        """
         writer = DictWriter(file, fieldnames=MENU_HEADERS)
         writer.writeheader()
         for item in daily_set:
@@ -62,14 +72,18 @@ def daily_save(daily_set, date, location, day):
     compare_path = SCRAPE_PATH + f"{location}/{date.year}/{date.month}/{date.day}"
 
     with open(compare_path + f".csv", "w") as file:
+        """ overwrites the original scraped data as db/scraped_data/{location}/{year}/{month}/{int day}.csv """
         writer = DictWriter(file, fieldnames=MENU_HEADERS)
         writer.writeheader()
         for item in daily_set:
             make_row(item, writer)
-
     compare_sets(daily_set, path, compare_path)
 
 def compare_sets(daily_set, original_path, compare_path):
+    """     
+    new items are saved as additions.csv
+    removed items are saved as deletions.csv
+    """
     compare_pickle = compare_path + "-pickle.pickle"
     with open(compare_pickle, "rb") as file:
         old_set = pickle.load(file)
@@ -93,10 +107,18 @@ def compare_sets(daily_set, original_path, compare_path):
         pickle.dump(daily_set, file)
 
 def memoize_master_additions(master_additions):
+    """ 
+    adds any new items to db/scraped_data/new_items.csv
+    saves the category and item name (these will be used to updated the master list, after all)
+    
+    also does a second thing (should make this two methods):
+    it updates teh master csv with the new items.
+    """
     file_name = SCRAPE_PATH + "new_items.csv" #saving new additions in new file
     with open(file_name, "a") as file:
         writer = DictWriter(file, fieldnames=MASTER_HEADERS)
         if os.stat(file_name).st_size == 0:
+            """ if this is a brand new file, write the headers first  """
             writer.writeheader()
         for item in master_additions:
             make_row(item, writer)

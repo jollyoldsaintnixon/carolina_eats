@@ -4,6 +4,7 @@ class FirstAddJob < ApplicationJob
 
   def first_add_check(menu_item, time_window=User::DEFAULT_NOTIFICATION_WINDOW)
     serve_dates = menu_item.serve_dates.where("start_time >= ? AND start_time <= ? ", Date.today, Date.today+time_window)
+    debugger
   end
 
   def perform(user, time_window=User::DEFAULT_NOTIFICATION_WINDOW)

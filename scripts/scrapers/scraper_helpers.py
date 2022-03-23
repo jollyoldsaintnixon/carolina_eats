@@ -29,18 +29,27 @@ SKIPPED_CATEGORIES = [
 ]
 
 def get_html(url):
+    """ gets the html to parse from the given url """
     response = requests.get(url)
     page_html = response.text
     return page_html
 
 def save_html(html, path):
+    """ saves the html. not sure if this is actually called (as of 20 MAR 2022) """
     with open("dining_menu.html", "w") as file:
         file.write(html)
 
 def make_soup(html):
+    """ soups that html """
     return BeautifulSoup(html, "html.parser")
 
 def get_menu_items(soup, location, date):
+    """ 
+    takes a soup, a location and a date 
+    makes a set to add to the master list that has the category and item name
+    makes a set to create the daily list that has the serve date, location, meal time, category, and item name
+    returns a tuple of both sets (master, daily)
+    """
     tabs = soup.select(".c-tab") # makes an array based off of elements in the html soup with .c-tab class
     master_set = set()
     daily_set = set()
@@ -69,6 +78,7 @@ def get_menu_items(soup, location, date):
 
 
 def get_master_pickle(file_name):
+    """ unpickles and returns the master list. returns an empty set as default (in case of first time loading master) """
     if os.path.exists(file_name):
         with open(file_name, "rb") as file:
             master = pickle.load(file)
@@ -80,12 +90,13 @@ def get_master_pickle(file_name):
     return master
 
 def update_master(menu_items, master):
-    # file_name = "master_list.csv"
+    """" updates the unpickled master based on the additions for a given day """
     for item in menu_items:
         master.add(item)
     return master
 
 def write_master(master, file_name):
+    """ writes the updated master csv file based on the updated unpickled master """
     with open(file_name, "w") as file:
         writer = DictWriter(file, fieldnames=MASTER_HEADERS)
         writer.writeheader()
@@ -100,5 +111,4 @@ def make_row(item, writer):
     row = {}
     for idx, h in enumerate(writer.fieldnames):
         row[h] = item[idx]
-    # print("row", row)
     writer.writerow(row)

@@ -27,7 +27,7 @@ def scraper():
     Path(SCRAPE_PATH).mkdir(parents=True, exist_ok=True)
 
     span_days = 150
-    if len(sys_args) > 2:
+    if len(sys_args) > 2: # default span is 150 days. can enter an in as a second cmd line arg for span
         try: 
             span_days = int(sys_args[2])
             print(f"range is {span_days}")
@@ -40,7 +40,6 @@ def scraper():
             print("isoformat", d.isoformat())
             url = f"https://dining.unc.edu/locations/{l}/?date={d.isoformat()}"
             html = get_html(url)
-            # save_html(html)
             soup = make_soup(html)
             master_additions, daily_set = get_menu_items(soup, l, d)
             save_menu_items(daily_set, d, l)
@@ -53,7 +52,13 @@ def scraper():
     write_master(master, SCRAPE_PATH + "master_menu.csv")
     repickle(master, PICKLE_FILE_NAME)
 
+
 def save_menu_items(daily_set, date, location):
+    """ 
+    saves the menu items served on a particular day in db/scraped_data/{location}/{year}/{month}/{integer of day}.csv
+    saved as csv with headers of: yyyy-mm-dd | location | meal | category | item name
+    also makes a pickle in the save directory as {integer of day}.pickle
+    """
     path = f"{location}/{date.year}/{date.month}"
     path = SCRAPE_PATH + path
     Path(path).mkdir(parents=True, exist_ok=True)

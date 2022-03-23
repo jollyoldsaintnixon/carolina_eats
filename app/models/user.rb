@@ -6,7 +6,6 @@
 #  email           :string           not null
 #  password_digest :string           not null
 #  session_token   :string           not null
-#  username        :string           not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #
@@ -26,6 +25,8 @@ class User < ApplicationRecord
     has_many :menu_items,
     through: :liked_by_users
 
+    has_many :serve_dates,
+    through: :menu_items
     # has_secure_password
     validates :password_digest, :session_token, :email, presence: true
     validates :email, :session_token, uniqueness: true

@@ -9,8 +9,13 @@
       Some of your tracked dishes will be served soon:<br>
     </p>
     <ul>
-        <% @messages.each do |m| %>
-            <li><%=m%><li>
+        <% @menu_messages.each do |item, serve_dates| %>
+            <%=item%>
+            <ul>
+              <% serve_dates.each do |sd| %>
+                <li><%=sd%></li>
+              <% end %>
+            </ul>
         <% end %>
     </ul>
     <p>Have a great day!</p>

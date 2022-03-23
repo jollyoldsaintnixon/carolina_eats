@@ -38,17 +38,20 @@ Things you may want to cover:
 - SHOULD reseed the database
 
 TODO:
-jobs: 
+* jobs: 
     BONUS: make custom sql query that is more efficient
-    -finish setting up sidekiq-status gem
-    -continue testing the firstaddjob. see if you can get the carolinaeatsapp@gmail.com to send emails. might need to enable access to "less secure apps" on google
-tasks: 
-    -rails create_menu_items_and_serve_dates:seed only goes one week out and completely drops the db. need to think of a way to keep serve dates that are further out and probably not drop the enitre menu
-session:
+    * finish setting up sidekiq-status gem
+    * continue testing the firstaddjob. see if you can get the carolinaeatsapp@gmail.com to send emails. might need to enable access to "less secure apps" on google
+        * get email stating each item user is subscribed to every hour on the hour
+            * checkout heroku scheduler
+* tasks: 
+    * rails create_menu_items_and_serve_dates:seed only goes one week out and completely drops the db. need to think of a way to keep serve dates that are further out and probably not drop the enitre menu
+    * `rake default_reminder_email:default_send` will now send an email to every user and inform them when an item they are subscribed to will be served if it is within the default time window.
+* session:
     -figure out Link/Router/HashRouter, and when to render signup/login/logout
-user:
+* user:
     oauth
-controllers:
+* controllers:
     make strong params
     make some before actions to summon @records
 * menu_items:
@@ -73,9 +76,14 @@ search:
     BONUS: build a suffix tree
     BONUS: highlight matching parts
     BONUS: search by dietary preference
+* scrapers and db:
+    * drop items that don't have any serve dates
+    * make functionality that dynamically drops items that no longer have serve dates once their last serve date is passed. or at least let's make it render the item in gray on front end and at the end of lists
+    * go through and comment on scrapers
 NOTES:
     CSS:
         body has a margin of 50px for development; take it out later
 
 BUGS:
 * couldn't figure out why two chosenItems were having display set to "none" when the delete button for one was clicked. I tried various mouse events (onMouseDown, onMouseUp, onMouseDownCapture (for parent element)). Also sent the parent element into a function to have display changed to none. What was happening was that the action being set off to remove the association from the database was causing the updated state to also remove an item, and it seems that the next sibling was targeted. The solution for now was to not change the display to none, however this could increase lag time in production.
+* again with the crontab. couldn't get a job to send email. i made sure to `cd` into the working directory and use the full rake path, but it still wasn't recognizing the command. then I added `bundle exec`; this got further. I was sending the output to a log and with `puts` statements I was able to see that the email does indeed generate, but it doesn't send. I figured this was down to the environment variables not loading properly. I tried to load the right bash profile at the beginning of the command, but to no avail. eventually I passed in the plain gmail username and password. This is working, but is not terribly secure. The whenever gem may be able to secure this properly.
