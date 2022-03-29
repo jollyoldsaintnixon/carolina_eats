@@ -17,17 +17,12 @@
 class User < ApplicationRecord
 
     has_many :liked_by_users
-    # ,
-    # class_name: :liked_by_user,
-    # foreign_key: :user_email,
-    # primary_key: :email
     
     has_many :menu_items,
     through: :liked_by_users
 
     has_many :serve_dates,
     through: :menu_items
-    # has_secure_password
     validates :password_digest, :session_token, :email, presence: true
     validates :email, :session_token, uniqueness: true
     validates :password, length: {minimum: 6, allow_nil: true}
@@ -37,7 +32,7 @@ class User < ApplicationRecord
 
     after_initialize :ensure_token
 
-    DEFAULT_NOTIFICATION_WINDOW = 10.days
+    DEFAULT_NOTIFICATION_WINDOW = 3.days
 
     def self.find_by_credentials(email, password) 
         user = User.find_by(email: email)

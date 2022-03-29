@@ -14,10 +14,6 @@
 #
 class MenuItem < ApplicationRecord
     has_many :liked_by_users#, -> { order(start_time: :desc) }
-    # ,
-    # class_name: :liked_by_user,
-    # foreign_key: :item_id,
-    # primary_key: :name
 
     has_many :serve_dates
     

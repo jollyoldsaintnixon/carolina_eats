@@ -34,7 +34,6 @@ const mapStateToProps = ({ entities: { menu_items, users }, session: { id }, }) 
 
 const mapDispatchToProps = dispatch => ({
     fetchMenuItems: () => dispatch(fetchMenuItemsActionCreator()),
-    // fetchMenuItemNames: () => dispatch(fetchMenuItemNamesActionCreator())
 });
 
 export default connect(

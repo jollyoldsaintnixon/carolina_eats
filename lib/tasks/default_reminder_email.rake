@@ -25,10 +25,15 @@ namespace :default_reminder_email do
                     puts "reminder email already sent"
                 end
             end
+            if Time.now - user.created_at < 1.days 
+                email = ReminderEmail.with(user: user).welcome_email
+                email.deliver_now
+                puts "delivered welcome email"
+            end
             if !menu_messages.empty?
                 email = ReminderMailer.with(user: user, menu_messages: menu_messages).reminder_email
                 email.deliver_now
-                puts "delivered"
+                puts "delivered reminder eamil"
             end
             if !error_messages.empty?
                 AdminMailer.with(errors: error_messages).reminder_email_creation_errors.deliver_now
