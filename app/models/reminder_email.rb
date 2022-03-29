@@ -14,5 +14,6 @@
 #  index_reminder_emails_on_user_id        (user_id)
 #
 class ReminderEmail < ApplicationRecord
-    
+    belongs_to :user
+    belongs_to :serve_date
 end

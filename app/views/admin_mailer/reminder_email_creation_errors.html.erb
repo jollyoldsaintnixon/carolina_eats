@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>
+      Errors:<br>
+    </p>
+    <ul>
+        <% @errors_map.each do |user_email, values| %>
+            <li><%=user_email%></li>
+            <%=values.each do |menu_item, errors|%>
+                <li><%=menu_item%></li>
+                <li><%=errors%></li>
+            <% end %>
+        <% end %>
+    </ul>
+    <p>Have a great day!</p>
+  </body>
+</html>

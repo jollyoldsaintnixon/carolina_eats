@@ -41,21 +41,23 @@ TODO:
 * jobs: 
     BONUS: make custom sql query that is more efficient
     * finish setting up sidekiq-status gem
-    * continue testing the firstaddjob. see if you can get the carolinaeatsapp@gmail.com to send emails. might need to enable access to "less secure apps" on google
-        * get email stating each item user is subscribed to every hour on the hour
-            * checkout heroku scheduler
+    * set up a carolinaeats@gmail.com account to send emails
+    * test whether foods being served at exact same time both send out a reminder
+    * learn how to "enqueue" jobs
+    * checkout heroku scheduler
 * tasks: 
     * rails create_menu_items_and_serve_dates:seed only goes one week out and completely drops the db. need to think of a way to keep serve dates that are further out and probably not drop the enitre menu
-    * `rake default_reminder_email:default_send` will now send an email to every user and inform them when an item they are subscribed to will be served if it is within the default time window.
+    * `rake default_reminder_email:default_send` will now send an email to every user and inform them when an item they are subscribed to will be served if it is within the default time window. it also generates a model between the serve date and user memoize that an email for that serve date was already sent.
+    * make an "update email" that notifies the user when a liked item is suddenly scheduled within their reminder range or when a liked item is removed.
 * session:
-    -figure out Link/Router/HashRouter, and when to render signup/login/logout
+    * figure out Link/Router/HashRouter, and when to render signup/login/logout
 * user:
     oauth
 * controllers:
     make strong params
     make some before actions to summon @records
 * menu_items:
-    BONUS: include dietary preference category. consider adding a boolean field for each dietary restriction and the same number of headers to the csv file. then you can just put true or false in each respective column based on whether or not BSoup finds the element with a class search. the class names are like "prop-vegan" and are within the anchor tag of the li that is iterated over to get the menu item name.
+    * BONUS: include dietary preference category. consider adding a boolean field for each dietary restriction and the same number of headers to the csv file. then you can just put true or false in each respective column based on whether or not BSoup finds the element with a class search. the class names are like "prop-vegan" and are within the anchor tag of the li that is iterated over to get the menu item name.
     * liked menu_item:
         * search for added liked menu item by id. will require significant refactoring
 serve_dates:
