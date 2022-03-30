@@ -21,6 +21,8 @@ class User < ApplicationRecord
     has_many :menu_items,
     through: :liked_by_users
 
+    has_many :reminder_emails
+
     has_many :serve_dates,
     through: :menu_items
     validates :password_digest, :session_token, :email, presence: true
